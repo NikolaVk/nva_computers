@@ -1,0 +1,1 @@
+web: gunicorn nva-computers.wsgi:application
