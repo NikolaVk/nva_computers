@@ -3,11 +3,17 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background: url('/media/martin-katler-PAB8jxMbcNg-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
+}
+
+.backblur {
+    background-color: rgba(255, 255, 255, 0.514);
+    border: #000 2px solid;
+    width: fit-content;
 }
 
 /* from Bulma */
@@ -23,8 +29,16 @@ body {
     text-transform: uppercase;
 }
 
+.logo-fontl {
+    text-transform: capitalize;
+}
+
 .main-logo-link {
     width: fit-content;
+}
+
+.capitalize {
+    text-transform: capitalize;
 }
 
 .shop-now-button {
@@ -64,6 +78,10 @@ body {
 
 .text-black {
     color: #000 !important;
+}
+
+.yellowA {
+    color: #eab301;
 }
 
 .border-black {
