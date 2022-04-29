@@ -61,4 +61,11 @@
         "name": "deals",
         "friendly_name": "Deals"
     }
+}, {
+    "pk": 10,
+    "model": "products.category",
+    "fields": {
+        "name": "new_arrivals",
+        "friendly_name": "New Arrivals"
+    }
 }]
