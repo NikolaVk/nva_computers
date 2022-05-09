@@ -4,6 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
+from reviews.models import Review
 from .models import Product, Category
 from .forms import ProductForm
 
@@ -64,9 +65,11 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    review = Review.objects.filter(product_id=product_id)
 
     context = {
         'product': product,
+        'review': review,
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -89,7 +92,7 @@ def add_product(request):
             messages.error(request, 'Failed to add product. Please ensure the form is valid.')
     else:
         form = ProductForm()
-        
+
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -133,7 +136,7 @@ def delete_product(request, product_id):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
-        
+
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
     messages.success(request, 'Product deleted!')
