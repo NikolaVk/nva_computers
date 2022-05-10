@@ -1,8 +1,8 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from .forms import ReviewForm
 from products.models import Product
+from .forms import ReviewForm
 
 
 # Create your views here.
@@ -20,7 +20,7 @@ def reviews_rating(request, product_id):
         }
 
         reviewform = ReviewForm(review_form)
-        if reviewform.is_valid:
+        if reviewform.is_valid():
             review = reviewform.save(commit=False)
             review.user = request.user
             review.product = product
@@ -31,6 +31,7 @@ def reviews_rating(request, product_id):
 
         else:
             messages.error(request, 'We are sorry review has not been added. Check your form.')
+            return redirect('product_detail', product_id)
 
     else:
         form = ReviewForm()
