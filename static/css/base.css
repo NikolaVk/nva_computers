@@ -193,6 +193,19 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
+/* --------------------------------Reviews */
+
+.review_card {
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-left: 15px;
+    padding: 15px;
+}
+
+.name_date {
+    color: #999999;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
