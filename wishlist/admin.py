@@ -1,9 +1,19 @@
 from django.contrib import admin
-from .models import wishlist
+from .models import Wishlist
 
 
 class WishlistAdmin(admin.ModelAdmin):
 
-    filter_horizontal = ('wishlist',)
+    # filter_horizontal = ('list',)
 
-    admin.site.register(wishlist)
+    list_display = (
+         'user',
+         'get_listproducts',
+         'created_on',
+    )
+
+    def get_listproducts(self, obj):
+        return ", ".join([p.name for p in obj.list.all()])
+
+
+admin.site.register(Wishlist, WishlistAdmin)

@@ -29,14 +29,17 @@
         <div class="col-12 col-md-6 col-lg-4">
             <div class="product-details-container mb-5 mt-md-5">
                 {% if request.user.is_authenticated %}
-                <a href="{% url 'add_wishlist' product.id %}">
-                    <i class="fa-solid fa-bookmark favo icon"></i>
-                    <p>add</p>
-                </a>
+                {% if isonwishlist %}
                 <a href="{% url 'remove_wishlist' product.id %}">
                     <i class="fa-solid fa-bookmark favo icon"></i>
-                    <p>remove</p>
+                    <p>Remove from wishlist</p>
                 </a>
+                {% else %}
+                <a href="{% url 'add_wishlist' product.id %}">
+                    <i class="fa-solid fa-bookmark favo icon"></i>
+                    <p>Add to Wishlist</p>
+                </a>
+                {% endif %}
                 {% endif %}
                 <p class="mb-0">{{ product.name }}</p>
                 <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>

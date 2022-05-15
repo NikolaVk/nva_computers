@@ -5,6 +5,7 @@ from django.db.models import Q, Avg
 from django.db.models.functions import Lower
 
 from reviews.models import Review
+from wishlist.models import Wishlist
 from .models import Product, Category
 from .forms import ProductForm
 
@@ -67,11 +68,17 @@ def product_detail(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     reviews = Review.objects.filter(product_id=product_id)
     score = Review.objects.filter(product_id=product_id).aggregate(Avg('rating'))
-
+    list = Wishlist.objects.filter(list__id=product_id, user_id=request.user.id)
+    if list.count() == 0:
+        isonwishlist = False
+    else:
+        isonwishlist = True
+    print(isonwishlist.__str__())
     context = {
         'product': product,
         'reviews': reviews,
         'score': score,
+        'isonwishlist': isonwishlist,
     }
 
     return render(request, 'products/product_detail.html', context)
