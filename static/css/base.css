@@ -291,6 +291,11 @@ input[name='q']::placeholder {
     .header-container {
         padding-top: 164px;
     }
+
+    .small {
+        display: none;
+
+    }
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
@@ -301,5 +306,14 @@ input[name='q']::placeholder {
 
     body {
         height: calc(100vh - 116px);
+    }
+
+    .large {
+        display: none;
+    }
+
+    .smallhr {
+        border: 0;
+        border-top: 1px solid #000;
     }
 }
