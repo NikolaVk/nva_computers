@@ -3,10 +3,10 @@ from products.models import Product
 
 
 class Contact(models.Model):
-    name = models.TextField(null=False, blank=False)
-    mail = models.TextField(blank=False)
+    name = models.CharField(max_length=100, null=False, blank=False)
+    mail = models.CharField(max_length=100, blank=False)
     product = models.ForeignKey(Product, null=False, blank=True, on_delete=models.CASCADE)
-    title = models.TextField(max_length=250, blank=True, null=True)
+    title = models.CharField(max_length=250, blank=True, null=True)
     description = models.TextField(blank=False)
     created_on = models.DateTimeField(auto_now=True)
     status = models.BooleanField(default=False)
