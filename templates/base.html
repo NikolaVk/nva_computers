@@ -40,13 +40,57 @@
 
 <body>
     <header class="container-fluid fixed-top">
-        <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-                <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0"><strong>NV</strong><strong class="yellowA">A</strong><strong class="capitalize">Computers</strong></h2>
+        <div id="topnav" class="row bg-white py-lg-3 d-none d-lg-flex">
+            <div class="col-12 col-lg-2 my-auto pt-1 text-center text-lg-left">
+                <a href="{% url 'home' %}" class=" main-logo-link">
+                    <h2 class="logo-font font-weight-bold text-black logo p-2"><strong>NVA</strong><strong class="capitalize">Computers</strong></h2>
                 </a>
             </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+            <!-- --------------------- DROPDOWN START ----------------------->
+            <div class="dropdown col-12 col-lg-2 w-25 my-auto py-1 py-lg-0 text-center text-lg-left">
+                <a id="dLabel" role="button" data-toggle="dropdown" class="btn logo-font font-weight-bold nav-link text-black mr-5" data-target="#" href="/page.html">
+                    Categories <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                    <li class="divider"></li>
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5" id="systems-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PC and Laptopss</a>
+                        <ul class="dropdown-menu border-0" aria-labelledby="systems-link">
+                            <a tabindex="-1" href="{% url 'products' %}?category=pc" class="dropdown-item">PC's</a>
+                            <a href="{% url 'products' %}?category=laptop" class="dropdown-item">Laptop's</a>
+                            <a href="{% url 'products' %}?category=laptop,pc" class="dropdown-item">All PC'S and Laptop's</a>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5 dropdown-item" id="hardware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hardware</a>
+                        <ul class="dropdown-menu border-0" aria-labelledby="hardware-link">
+                            <a tabindex="-1" href="{% url 'products' %}?category=speakers" class="dropdown-item">Speakers</a>
+                            <a href="{% url 'products' %}?category=headphones" class="dropdown-item">Headphones</a>
+                            <a href="{% url 'products' %}?category=keyboards" class="dropdown-item">Keyboards</a>
+                            <a href="{% url 'products' %}?category=mouse" class="dropdown-item">Mouse</a>
+                            <a href="{% url 'products' %}?category=monitors" class="dropdown-item">Monitors</a>
+                            <a href="{% url 'products' %}?category=cables" class="dropdown-item">Cables</a>
+
+                            <a href="{% url 'products' %}?category=speakers,headphones,keyboards,mouse,monitors,cables" class="dropdown-item">All Hardware</a>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5" id="systems-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Special Offers</a>
+                        <ul class="dropdown-menu border-0" id="specials-link">
+                            <a href=" {% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                            <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                            <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
+                        </ul>
+                    </li>
+                    <hr class="smallhr">
+                    <li><a href="{% url 'products' %}" class="dropdown-submenu logo-font font-weight-bold nav-link text-black mr-5">All Products</a></li>
+                </ul>
+            </div>
+            <!-- --------------------- DROPDOWN END ----------------------->
+
+            <div class="col-12 col-lg-5 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
                         <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site">
@@ -60,10 +104,10 @@
                     </div>
                 </form>
             </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+            <div class="col-12 col-lg-3 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="text-black" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div><i class="fas fa-user fa-lg"></i></div>
                                 <p class="my-0">My Account</p>
@@ -84,7 +128,7 @@
                         </div>
                     </li>
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %}" href="{% url 'view_bag' %}">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                 <p class="my-0">
@@ -100,7 +144,8 @@
                 </ul>
             </div>
         </div>
-        <div class="row bg-white">
+
+        <div class="row bg-white d-lg-none">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -137,8 +182,10 @@
     {% block page_header %}
     {% endblock %}
 
-    {% block content %}
-    {% endblock %}
+    <div class="mt-5 mob-scr">
+        {% block content %}
+        {% endblock %}
+    </div>
 
     {% block postloadjs %}
     <script type="text/javascript">
