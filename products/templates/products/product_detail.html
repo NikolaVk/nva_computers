@@ -31,12 +31,12 @@
                 {% if request.user.is_authenticated %}
                 {% if isonwishlist %}
                 <a href="{% url 'remove_wishlist' product.id %}">
-                    <i class="fa-solid fa-bookmark favo icon"></i>
+                    <i class="fas fa-solid fa-bookmark favo icon"></i>
                     <p>Remove from wishlist</p>
                 </a>
                 {% else %}
                 <a href="{% url 'add_wishlist' product.id %}">
-                    <i class="fa-solid fa-bookmark favo icon"></i>
+                    <i class="fas fa-solid fa-bookmark favo icon"></i>
                     <p>Add to Wishlist</p>
                 </a>
                 {% endif %}
@@ -51,7 +51,7 @@
                 </p>
                 {% endif %}
                 {% if product.rating %}
-                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ score.rating__avg }} / 5</small>
+                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ score.rating__avg|floatformat:1 }} / 5</small>
                 {% else %}
                 <small class="text-muted">No Rating</small>
                 {% endif %}
@@ -110,7 +110,7 @@
     <div class="col-6">
         <a href="{% url 'reviews' product.id %}" class="btn btn-outline-black rounded-0 mt-5">
             <span class="icon">
-                <i class="fa-solid fa-pen-line"></i>
+                <i class="fas fa-solid fa-pen"></i>
             </span>
             <span>Write a Review</span>
         </a>

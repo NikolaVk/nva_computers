@@ -39,8 +39,8 @@
 </head>
 
 <body>
-    <header class="container-fluid fixed-top">
-        <div id="topnav" class="row bg-white py-lg-3 d-none d-lg-flex">
+    <header class="container-fluid fixed-top p-0">
+        <div id="topnav" class="row g-0 bg-white py-lg-3 d-none d-lg-flex">
             <div class="col-12 col-lg-2 my-auto pt-1 text-center text-lg-left">
                 <a href="{% url 'home' %}" class=" main-logo-link">
                     <h2 class="logo-font font-weight-bold text-black logo p-2"><strong>NVA</strong><strong class="capitalize">Computers</strong></h2>
@@ -54,17 +54,18 @@
                 <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                     <li class="divider"></li>
                     <li class="dropdown-submenu">
-                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5" id="systems-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PC and Laptopss</a>
-                        <ul class="dropdown-menu border-0" aria-labelledby="systems-link">
+                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5 submenu_handling" id="systems-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PC and Laptopss</a>
+                        <ul class="dropdown-menu border-0 submenu_container" aria-labelledby="systems-link">
                             <a tabindex="-1" href="{% url 'products' %}?category=pc" class="dropdown-item">PC's</a>
                             <a href="{% url 'products' %}?category=laptop" class="dropdown-item">Laptop's</a>
                             <a href="{% url 'products' %}?category=laptop,pc" class="dropdown-item">All PC'S and Laptop's</a>
                         </ul>
+
                     </li>
 
                     <li class="dropdown-submenu">
-                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5 dropdown-item" id="hardware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hardware</a>
-                        <ul class="dropdown-menu border-0" aria-labelledby="hardware-link">
+                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5 submenu_handling" id="hardware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hardware</a>
+                        <ul class="dropdown-menu border-0 submenu_container" aria-labelledby="hardware-link">
                             <a tabindex="-1" href="{% url 'products' %}?category=speakers" class="dropdown-item">Speakers</a>
                             <a href="{% url 'products' %}?category=headphones" class="dropdown-item">Headphones</a>
                             <a href="{% url 'products' %}?category=keyboards" class="dropdown-item">Keyboards</a>
@@ -77,8 +78,8 @@
                     </li>
 
                     <li class="dropdown-submenu">
-                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5" id="systems-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Special Offers</a>
-                        <ul class="dropdown-menu border-0" id="specials-link">
+                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5 submenu_handling" id="systems-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Special Offers</a>
+                        <ul class="dropdown-menu border-0 submenu_container" id="specials-link">
                             <a href=" {% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
                             <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
                             <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
@@ -88,6 +89,7 @@
                     <li><a href="{% url 'products' %}" class="dropdown-submenu logo-font font-weight-bold nav-link text-black mr-5">All Products</a></li>
                 </ul>
             </div>
+
             <!-- --------------------- DROPDOWN END ----------------------->
 
             <div class="col-12 col-lg-5 my-auto py-1 py-lg-0">
@@ -154,12 +156,13 @@
                 {% include 'includes/main-nav.html' %}
             </nav>
         </div>
-        <div id="delivery-banner" class="row text-center">
+        <div id="delivery-banner" class=" g-0 text-center">
             <div class="col text-black">
-                <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
+                <h4 class="logo-font">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
             </div>
         </div>
     </header>
+
 
     {% if messages %}
     <div class="message-container">
@@ -182,20 +185,65 @@
     {% block page_header %}
     {% endblock %}
 
-    <div class="mt-5 mob-scr">
+    <div class="mt-5 mob-scr home-p">
         {% block content %}
         {% endblock %}
     </div>
+    <footer class="row g-0 pt-3 m-0">
+        <div class="col-sm-12 col-lg-6 col-md-6 d-none d-md-block foot p-0">
+            <h3 class="logo-font font-weight-bold text-black">Categories</h3>
+            <hr class="w-75 mb-1">
+            <div class="row g-0">
+                <div class="col-lg-4">
+                    <h5 class="font-weight-bold text-black">PC's and Laptops</h5>
+                    <a tabindex="-1" href="{% url 'products' %}?category=pc" class="dropdown-item">PC's</a>
+                    <a href="{% url 'products' %}?category=laptop" class="dropdown-item">Laptop's</a>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="font-weight-bold text-black">Hardware</h5>
+                    <a href="{% url 'products' %}?category=speakers" class="dropdown-item">Speakers</a>
+                    <a href="{% url 'products' %}?category=headphones" class="dropdown-item">Headphones</a>
+                    <a href="{% url 'products' %}?category=keyboards" class="dropdown-item">Keyboards</a>
+                    <a href="{% url 'products' %}?category=mouse" class="dropdown-item">Mouse</a>
+                    <a href="{% url 'products' %}?category=monitors" class="dropdown-item">Monitors</a>
+                    <a href="{% url 'products' %}?category=cables" class="dropdown-item">Cables</a>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="font-weight-bold text-black">Special Offers</h5>
+                    <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                    <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-3 foot p-0">
+            <h3 class="logo-font font-weight-bold text-black">My Account</h3>
+            <hr class="w-75 mb-1">
+            {% if request.user.is_authenticated %}
+            {% if request.user.is_superuser %}
+            <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+            {% endif %}
+            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+            <a href="{% url 'wishlist' %}" class="dropdown-item">My Wishlist</a>
+            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+            {% else %}
+            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+            {% endif %}
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-3 foot px-4">
+            <h3 class="logo-font font-weight-bold text-black">Contact Us</h3>
+            <hr class="w-75 mb-1">
+            <p class="font-weight-bold text-black"> Do you have any questions? By clicking on the button below you may ask us anything that you need to know about shipping, products and/or any other related questions.</p>
+            <h5><a href="{% url 'contact' %}" class="font-weight-bold text-black dropdown-item">Ask us anything!</a></h5>
+        </div>
+    </footer>
 
     {% block postloadjs %}
-    <script type="text/javascript">
+    <script type=" text/javascript">
         $('.toast').toast('show');
     </script>
     {% endblock %}
-
-    <footer>
-
-    </footer>
+    <script src="/static/js/base.js"></script>
 </body>
 
 </html>

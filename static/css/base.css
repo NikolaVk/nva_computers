@@ -10,6 +10,10 @@ body {
     font-family: 'Lato';
 }
 
+.home-p {
+    min-height: 700px;
+}
+
 .backblur {
     background-color: rgba(255, 255, 255, 0.514);
     border: #000 2px solid;
@@ -105,6 +109,7 @@ a.category-badge>span.badge:hover {
     position: fixed;
     bottom: 10px;
     right: 10px;
+    z-index: 1000;
 }
 
 .btt-link,
@@ -203,6 +208,11 @@ input[name='q']::placeholder {
     text-decoration: none;
 }
 
+#topnav {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 #delivery-banner {
     background-color: #EAB301;
 }
@@ -265,6 +275,10 @@ input[name='q']::placeholder {
     border-radius: 6px 0 6px 6px;
 }
 
+.shown_submenu {
+    display: block !important;
+}
+
 
 /* --------------------------------Products */
 
@@ -293,6 +307,24 @@ input[name='q']::placeholder {
 
 .favo {
     font-size: 50px;
+}
+
+/* --------------------------------Footer */
+
+footer {
+    background-color: #EAB301;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+.foot {
+    text-align: center;
+    border-left: 1px solid black;
+}
+
+.no-bor {
+    border: none;
 }
 
 /* -------------------------------- Media Queries */
