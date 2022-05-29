@@ -281,14 +281,10 @@ input[name='q']::placeholder {
 
 
 /* --------------------------------Products */
-
-.card {}
-
 .card-img {
     height: 250px;
     width: 100%;
 }
-
 
 /* --------------------------------Reviews */
 
@@ -325,6 +321,125 @@ footer {
 
 .no-bor {
     border: none;
+}
+
+/* -------------------------------- Darkmode Button */
+
+.darkmode {
+    background-color: #fff;
+    width: max-content;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.light {
+    background-color: black;
+}
+
+#darkmode i {
+    color: #EAB301;
+    animation: up 1s forwards alternate;
+
+
+}
+
+#lightmode i {
+    color: #000 !important;
+    line-height: 65px;
+    animation: down 1s forwards alternate;
+}
+
+.darkmode_enabled {
+    display: block;
+}
+
+.darkmode_disabled {
+    display: none;
+}
+
+/* -------------------------------- Darkmode Animation */
+
+@keyframes up {
+    100% {
+        transform: translateY(130%);
+    }
+}
+
+@keyframes down {
+    100% {
+        transform: translateY(-30%);
+    }
+}
+
+/* -------------------------------- Darkmode Colors */
+.overlay.godark {
+    background-color: #212121 !important;
+    transition: background-color 0.5s;
+}
+
+.navbar-collapse {
+    background-color: #212121;
+}
+
+.mob-dark.godark {
+    background-color: #212121 !important;
+}
+
+.dark-font.godark {
+    color: #fff !important;
+}
+
+#topnav.godark {
+    background-color: #212121 !important;
+}
+
+footer a.godark {
+    color: #000;
+}
+
+.dropdown-menu.godark {
+    background-color: #212121 !important;
+}
+
+.dropdown a.godark {
+    color: white !important;
+}
+
+.dropdown a.godark:hover {
+    background-color: #EAB301;
+    color: black !important;
+
+}
+
+.review-body.godark {
+    background-color: #212121;
+}
+
+.review_card.godark {
+    background-color: #fff;
+}
+
+.yellow.godark {
+    background-color: #EAB301 !important;
+}
+
+.yellow.godark:hover {
+    background-color: #fff !important;
+}
+
+.hyellow.godark:hover {
+    background-color: #EAB301 !important;
+    color: #000 !important;
+}
+
+.ldark-font.godark {
+    color: #000 !important;
+}
+
+.ldark-font.godark:hover {
+    color: #000;
 }
 
 /* -------------------------------- Media Queries */

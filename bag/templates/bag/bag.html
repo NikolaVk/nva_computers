@@ -16,7 +16,7 @@
     <div class="row">
         <div class="col">
             <hr>
-            <h2 class="logo-font mb-4">Shopping Bag</h2>
+            <h2 class="logo-font mb-4 dark-font">Shopping Bag</h2>
             <hr>
         </div>
     </div>
@@ -26,7 +26,7 @@
             {% if bag_items %}
             <div class="table-responsive rounded">
                 <table class="table table-sm table-borderless">
-                    <thead class="text-black">
+                    <thead class="text-black dark-font">
                         <tr>
                             <th scope="col">Product Info</th>
                             <th scope="col"></th>
@@ -37,7 +37,7 @@
                     </thead>
 
                     {% for item in bag_items %}
-                    <tr>
+                    <tr class="dark-font">
                         <td class="p-3 w-25">
                             {% if item.product.image %}
                             <img class="img-fluid rounded" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
@@ -83,7 +83,7 @@
                         </td>
                     </tr>
                     {% endfor %}
-                    <tr>
+                    <tr class="dark-font">
                         <td colspan="5" class="pt-5 text-right">
                             <h6><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
                             <h6>Delivery: ${{ delivery|floatformat:2 }}</h6>
@@ -97,13 +97,13 @@
                     </tr>
                     <tr>
                         <td colspan="5" class="text-right">
-                            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg hyellow ldark-font">
                                 <span class="icon">
                                     <i class="fas fa-chevron-left"></i>
                                 </span>
                                 <span class="text-uppercase">Keep Shopping</span>
                             </a>
-                            <a href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg">
+                            <a href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg yellow ldark-font">
                                 <span class="text-uppercase">Secure Checkout</span>
                                 <span class="icon">
                                     <i class="fas fa-lock"></i>
@@ -114,8 +114,8 @@
                 </table>
             </div>
             {% else %}
-            <p class="lead mb-5">Your bag is empty.</p>
-            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+            <p class="lead mb-5 dark-font">Your bag is empty.</p>
+            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg hyellow ldark-font">
                 <span class="icon">
                     <i class="fas fa-chevron-left"></i>
                 </span>
