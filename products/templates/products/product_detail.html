@@ -30,14 +30,18 @@
             <div class="product-details-container mb-5 mt-md-5">
                 {% if request.user.is_authenticated %}
                 {% if isonwishlist %}
-                <a href="{% url 'remove_wishlist' product.id %}">
-                    <i class="fas fa-solid fa-bookmark favo icon"></i>
-                    <p>Remove from wishlist</p>
+                <a href="{% url 'remove_wishlist' product.id %}" class="btn btn-outline-black rounded-0 mt-5 hyellow">
+                    <span class="icon">
+                        <i class="fas fa-solid fa-bookmark ldark-font"></i>
+                    </span>
+                    <span class="ldark-font">Remove from wishlist</span>
                 </a>
                 {% else %}
-                <a href="{% url 'add_wishlist' product.id %}">
-                    <i class="fas fa-solid fa-bookmark favo icon"></i>
-                    <p>Add to Wishlist</p>
+                <a href="{% url 'add_wishlist' product.id %}" class="btn btn-black rounded-0 mt-5 yellow">
+                    <span class="icon">
+                        <i class="fas fa-regular fa-bookmark ldark-font"></i>
+                    </span>
+                    <span class="ldark-font">Add to Wishlist</span>
                 </a>
                 {% endif %}
                 {% endif %}

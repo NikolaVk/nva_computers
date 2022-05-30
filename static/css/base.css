@@ -299,12 +299,6 @@ input[name='q']::placeholder {
     color: #999999;
 }
 
-/* --------------------------------Wishlist */
-
-.favo {
-    font-size: 50px;
-}
-
 /* --------------------------------Footer */
 
 footer {
