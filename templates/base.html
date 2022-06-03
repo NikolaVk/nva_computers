@@ -39,6 +39,7 @@
 </head>
 
 <body>
+    <script src="/static/js/darkmode_trigger.js"></script>
     <header class="container-fluid fixed-top p-0">
         <div id="topnav" class="row g-0 bg-white py-lg-3 d-none d-lg-flex">
             <div class="col-12 col-lg-2 my-auto pt-1 text-center text-lg-left">
@@ -48,8 +49,8 @@
             </div>
             <!-- --------------------- DARKMODE START ----------------------->
             <div class="col-12 col-lg-1">
-                <div class="darkmode darkmode_disabled" id="lightmode" onclick="setlightmode();"><i class="fas fa-moon fa-lg"></i></div>
-                <div class="darkmode light darkmode_enabled" id="darkmode" onclick="setdarkmode();"><i class="fas fa-sun fa-lg"></i></div>
+                <div class="darkmode darkmode_disabled lightmode-btt" onclick="setlightmode(event);"><i class="fas fa-sun  fa-lg"></i></div>
+                <div class="darkmode light darkmode_enabled darkmode-btt" onclick="setdarkmode(event);"><i class="fas fa-moon fa-lg"></i></div>
             </div>
 
             <!-- --------------------- DARKMODE END ----------------------->
@@ -157,7 +158,7 @@
         <div class="row bg-white d-lg-none mob-dark">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="text-black dark-font"><i class="fas fa-solid fa-bars"></i></span>
                 </button>
                 {% include 'includes/mobile-top-header.html' %}
                 {% include 'includes/main-nav.html' %}
@@ -251,6 +252,8 @@
     </script>
     {% endblock %}
     <script src="/static/js/base.js"></script>
+    <script src="/static/js/darkmode.js"></script>
+
 </body>
 
 </html>

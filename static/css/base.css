@@ -17,7 +17,6 @@ body {
 .backblur {
     background-color: rgba(255, 255, 255, 0.514);
     border: #000 2px solid;
-    width: fit-content;
 }
 
 /* from Bulma */
@@ -332,18 +331,17 @@ footer {
     background-color: black;
 }
 
-#darkmode i {
+.darkmode-btt i {
     color: #EAB301;
     animation: up 1s forwards alternate;
-
-
 }
 
-#lightmode i {
+.lightmode-btt i {
     color: #000 !important;
     line-height: 65px;
     animation: down 1s forwards alternate;
 }
+
 
 .darkmode_enabled {
     display: block;
@@ -368,71 +366,79 @@ footer {
 }
 
 /* -------------------------------- Darkmode Colors */
-.overlay.godark {
+.godark .overlay {
     background-color: #212121 !important;
     transition: background-color 0.5s;
 }
 
-.navbar-collapse {
+.godark .navbar-collapse {
     background-color: #212121;
 }
 
-.mob-dark.godark {
+.godark .collapsing {
     background-color: #212121 !important;
 }
 
-.dark-font.godark {
+.godark .mob-dark {
+    background-color: #212121 !important;
+}
+
+.godark .dark-font {
     color: #fff !important;
 }
 
-#topnav.godark {
+.godark #topnav {
     background-color: #212121 !important;
 }
 
-footer a.godark {
+.godark .collapse {
+    background-color: #212121 !important;
+}
+
+.godark footer a {
     color: #000;
 }
 
-.dropdown-menu.godark {
+.godark .dropdown-menu {
     background-color: #212121 !important;
 }
 
-.dropdown a.godark {
+.godark .dropdown a {
     color: white !important;
 }
 
-.dropdown a.godark:hover {
+.godark .dropdown a:hover {
     background-color: #EAB301;
     color: black !important;
 
 }
 
-.review-body.godark {
+.godark .review-body {
     background-color: #212121;
 }
 
-.review_card.godark {
+.godark .review_card {
     background-color: #fff;
 }
 
-.yellow.godark {
+.godark .yellow {
     background-color: #EAB301 !important;
 }
 
-.yellow.godark:hover {
+.godark .yellow:hover {
     background-color: #fff !important;
 }
 
-.hyellow.godark:hover {
+.godark .hyellow:hover {
     background-color: #EAB301 !important;
     color: #000 !important;
 }
 
-.ldark-font.godark {
+.godark .ldark-font {
     color: #000 !important;
 }
 
-.ldark-font.godark:hover {
+.godark .ldark-font:hover {
     color: #000;
 }
 
