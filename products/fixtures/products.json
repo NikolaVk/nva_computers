@@ -1,1 +1,505 @@
-[{"model": "products.product", "pk": 3, "fields": {"category": 1, "sku": "A101", "name": "Apple 16-inch", "description": "This pc is a 16-inch and has a beautiful 5k screen. \r\nSo if you use a program like photo shop you can see every little detail.\r\nIt has a 16 RAM in it. \r\nYou can run heavy programs and games on it.", "specs": "RAM: 16GB\r\nScreen size: 16 inch \r\nTouchscreen included \r\nBluetooth: Yes", "price": "1600.00", "rating": "4.00", "image_url": null, "image": "gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg"}}, {"model": "products.product", "pk": 4, "fields": {"category": 1, "sku": "A102", "name": "Apple imac desktop", "description": "This sleak desktop will run any program that you can think of and even more!\r\nThe graphics will make any photo or video look like a professional one. \r\nThe sound is amazing.", "specs": "Build in speakers: No\r\nCD drive: included \r\nType material: Aluminium \r\nProcessor: Intel i9", "price": "1700.00", "rating": "4.00", "image_url": null, "image": "nana-dua-aDdri5jsFZk-unsplash.jpg"}}, {"model": "products.product", "pk": 5, "fields": {"category": 1, "sku": "A103", "name": "Lian Li Bauer", "description": "This is al beautiful gaming desktop with RGB lights built in. \r\nYou can change the colors in every color that you want. \r\nHe is powerful enough for the biggest games.", "specs": "turbo speed: 5,6 GHz\r\nRAM: 32 GB\r\nSystem: Windows \r\nUSB-A poort: 4 pieces", "price": "1950.00", "rating": "5.00", "image_url": null, "image": "olivier-collet-VDGBFiaM6Cs-unsplash.jpg"}}, {"model": "products.product", "pk": 6, "fields": {"category": 1, "sku": "A104", "name": "Medion x350", "description": "This desktop gives you the ability to hide al your buttons that why it gives a sleak  look. \r\nThe pc is perfect for office work or design work. \r\nThis has a CD drive hidden which makes it backward compatible  with  old pc's.\r\nIf you are dissatisfied with the product you can return it in 30 days.", "specs": "CD drive: Yes\r\nRAM: 8 GB \r\nType of storage: SSD + HDD\r\nBluetooth: Yes", "price": "560.00", "rating": "3.00", "image_url": null, "image": "WhatsApp_Image_2022-04-17_at_16.29.41.jpeg"}}, {"model": "products.product", "pk": 7, "fields": {"category": 2, "sku": "A201", "name": "Acer Y346", "description": "This laptop has a  beautiful HD screen. \r\nIt is a 17 inch screen with a built in webcamera that you can turn it on and off. \r\nThis laptop has touchscreen.", "specs": "Touchscreen: Yes\r\nOperating system: Windows \r\nRAM: 8 GB \r\nScreen size: 14 inch", "price": "680.00", "rating": "4.00", "image_url": null, "image": "anete-lusina-zwsHjakE_iI-unsplash.jpg"}}, {"model": "products.product", "pk": 8, "fields": {"category": 2, "sku": "A202", "name": "Dell G534", "description": "This laptop has a webcam that below the screen. \r\nthe laptop is easy to take with you if you are traveling because he is a light weigh. \r\nIt is a 14 inch laptop.", "specs": "Type of storage: SSD\r\nHeadphone connection: Yes\r\nKeyboard layout: QWERTY\r\nHDMI : Yes", "price": "549.00", "rating": "3.00", "image_url": null, "image": "erick-cerritos-i5UV2HpITYA-unsplash.jpg"}}, {"model": "products.product", "pk": 9, "fields": {"category": 2, "sku": "A203", "name": "HP 5g478", "description": "This HP laptop is a very compact laptop that can run photo shop and video added very good and easy. \r\nAlso you can play games like minecraft. \r\nThe battery can go for 7 hours without charging the battery.\r\nWith this laptop you get free microsoft office.", "specs": "Battery: 7 hours\r\nOffice word: Yes\r\nImage quality: HD \r\nWifi: Yes", "price": "750.00", "rating": "4.00", "image_url": null, "image": "kari-shea-1SAnrIxw5OY-unsplash.jpg"}}, {"model": "products.product", "pk": 10, "fields": {"category": 2, "sku": "A204", "name": "HP y344", "description": "This laptop has anti reflective screen so if you are in the garden or somewhere outside and the sun is shining you don't have to worry because the screen will screen will not reflect. \r\nthis laptop can keep up to 10 hours without charging. \r\nso it is a good laptop for traveling.", "specs": "Battery: 10 hours\r\nWebcam: Yes \r\nScreen quality: HD\r\nUSB connection: 3 included", "price": "900.00", "rating": "4.00", "image_url": null, "image": "mika-baumeister-7KLpKCG05vI-unsplash.jpg"}}, {"model": "products.product", "pk": 11, "fields": {"category": 2, "sku": "A205", "name": "MSi G500", "description": "His laptop is a gaming laptop and can run any game. \r\nAlso you can run video editor and foto shop on it. \r\nIt has a beautiful keyboard with lights in it you can change the colors in every color you like.", "specs": "Keyboard backlight: Yes/red\r\nScreen size: 16 inch \r\nProcessor: i7\r\ntype storage: SSD", "price": "1500.00", "rating": "4.00", "image_url": null, "image": "vadim-artyukhin-bBqMGSGaOXw-unsplash.jpg"}}, {"model": "products.product", "pk": 14, "fields": {"category": 4, "sku": "A301", "name": "Logitech EditorsKeys", "description": "This keyboard is good for office works because of the ergonomics. You can type for a long time without hurting your hands and it has a sleek design.", "specs": "Connection: Wireless\r\nErgonomic design: Yes\r\nBluetooth: Yes\r\nBacklight: Yes", "price": "120.00", "rating": "4.20", "image_url": null, "image": "editors-keys-CtDrd7mWW6M-unsplash.jpg"}}, {"model": "products.product", "pk": 15, "fields": {"category": 4, "sku": "A302", "name": "Red Dragon rd305", "description": "This keyboard has a gaming look with RGB lights. With software from reddragon you can change every key's color to what you want. It is good for gaming", "specs": "Suitable for gaming: Yes\r\nConnection type: Wire\r\nRGB: Yes\r\nType: Mechanical", "price": "70.00", "rating": "3.80", "image_url": null, "image": "rebekah-yip-42-_8bvyBz8-unsplash.jpg"}}, {"model": "products.product", "pk": 16, "fields": {"category": 4, "sku": "A303", "name": "Logitech TinyKeys", "description": "This keyboard is very compact and light. Its good for traveling around with. It's also a wireless keyboard to make it easier.", "specs": "Backlight: No\r\nPowersuply: Internal battery\r\nBluetooth: Yes\r\nFlat keys: Yes", "price": "80.00", "rating": "4.50", "image_url": null, "image": "sebastian-banasiewcz-CMs6ZGOdyho-unsplash.jpg"}}, {"model": "products.product", "pk": 17, "fields": {"category": 4, "sku": "A304", "name": "Trust b7", "description": "This is a wired keyboard so no worries about charging it. It's a simple and minimalistic design", "specs": "Connection: Wire\r\nBacklight: No\r\nBluetooth: No", "price": "30.00", "rating": "3.60", "image_url": null, "image": "olena-sergienko-cHlK4sZXOQo-unsplash.jpg"}}, {"model": "products.product", "pk": 18, "fields": {"category": 4, "sku": "A305", "name": "Redkeys 350", "description": "This is a mechanical keyboard so if you have to work for long hours than this is a perfect suit for you. It is wireless and you can use it for up to 3 weeks before charging it again.", "specs": "Bluetooth: Yes\r\nConnection: Wireless/wired\r\nPowersuply: Internal battery\r\nBacklight: No", "price": "90.00", "rating": "4.80", "image_url": null, "image": "stefen-tan-KYw1eUx1J7Y-unsplash.jpg"}}, {"model": "products.product", "pk": 19, "fields": {"category": 5, "sku": "A401", "name": "Logitech G100", "description": "This mouse has a damper in it so it is as quiet as a mouse. You don't have to worry about your colleagues being noisy.", "specs": "Bluetooth: Yes\r\nSilent: Yes\r\nPowersuply: 2x AAA Bettery", "price": "50.00", "rating": "4.10", "image_url": null, "image": "frankie-VghbBAYqUJ0-unsplash.jpg"}}, {"model": "products.product", "pk": 20, "fields": {"category": 5, "sku": "A402", "name": "Logitech A201", "description": "This is a very small compact wireless mouse. You can easily travel with it. It also helps that it is a bluetooth mouse with interchangeable batteries.", "specs": "Bluetooth: Yes\r\nPowersuply: 2x AAA Batteries\r\nCompact: Yes", "price": "25.00", "rating": "3.60", "image_url": null, "image": "jeremy-bezanger-gyIMi9RdUTs-unsplash.jpg"}}, {"model": "products.product", "pk": 21, "fields": {"category": 5, "sku": "A403", "name": "Windows Mouse", "description": "This is a very simple ergonomic mouse for making long hours with. It helps that its very thin and very lightweight. The batteries will last up to a month depending on the use.", "specs": "Ergonomic: Yes\r\nWireless: Yes\r\nPowersuply: Internal battery", "price": "90.00", "rating": "3.90", "image_url": null, "image": "katlyn-luz-JOef0jIIYDM-unsplash.jpg"}}, {"model": "products.product", "pk": 22, "fields": {"category": 5, "sku": "A404", "name": "Logitech G150", "description": "This is a wired gaming mouse. It has programmable keys on the side using Logitec's software. You lights can be changed or give it a certain pattern also with the Logitec app.", "specs": "Connection: Wired\r\nRGB: Yes\r\nProgrammable keys: Yes", "price": "80.00", "rating": "4.30", "image_url": null, "image": "ryan-putra-j4PqlNVZ4Bc-unsplash.jpg"}}, {"model": "products.product", "pk": 23, "fields": {"category": 5, "sku": "A405", "name": "Logitech MX Master3", "description": "This is a very large very comfortable mouse to use. All the keys accept the left and right clicks are programmable to do what you want them to do. Besides the main scroll button in the middle theres an extra one  which you can program to for example zoom in and out.", "specs": "Wireless: Yes\r\nSilent: No\r\nPowersuply: Internal battery\r\nProgrammable keys: Yes", "price": "110.00", "rating": "4.80", "image_url": null, "image": "stefen-tan-ndUby2p2ptY-unsplash.jpg"}}, {"model": "products.product", "pk": 24, "fields": {"category": 7, "sku": "A501", "name": "Corsair gt500", "description": "This is a simple stealthy gaming headset. It uses a 3.5mm jack so you can use it with anything that has it. There is removable microphone included. With thick soft foam on top it's very comfortable as well and you can use it comfortable for long gaming sessions or listening to music", "specs": "Bluetooth: No\r\nType connection: Wired\r\nSurround sound: Yes/7.1 virtual surround sound\r\nSpeaker drivers: 50mm\r\nControl buttons: Yes\r\nType fit: Overear", "price": "70.00", "rating": "4.10", "image_url": null, "image": "andrew-m-d4Bk6VRyfXo-unsplash.jpg"}}, {"model": "products.product", "pk": 25, "fields": {"category": 7, "sku": "A502", "name": "Razer Nari Ultimate", "description": "The ultimate gaming headset. This is made for gamers who really want the feeling that they are inside the game they are playing. With extra haptic feedback motors in both auricles it will give the game an extra depth. You will be able to feel every bullet going beside you and every explosion happening.", "specs": "Bluetooth: Yes\r\nType connection: Wireless/wired\r\nBattery: 20 hours\r\nSurround sound: Yes/7.1\r\nSpeaker drivers: 50mm\r\nControl buttons: Yes\r\nType fit: Overear", "price": "200.00", "rating": "4.60", "image_url": null, "image": "anton-maksimov-5642-su-_jn3oOccQtM-unsplash.jpg"}}, {"model": "products.product", "pk": 26, "fields": {"category": 7, "sku": "A503", "name": "Bose Comfort 45", "description": "This is the best of the best when it comes to sound quality, comfort and noise canceling. It's very light so you will be able to listen to your music for long periods of time. It has one of the best noise canceling out there. You are able to adjust the noise canceling through the Bose app. It also helps that its wireless so you have all the freedom.", "specs": "Bluetooth: Yes\r\nType connection: Wireless/wired\r\nBattery: 24 hours\r\nSurround sound: No\r\nControl buttons: Yes\r\nType fit: Overear", "price": "350.00", "rating": "4.80", "image_url": null, "image": "anubhav-arora-_RlzDPORSOM-unsplash.jpg"}}, {"model": "products.product", "pk": 27, "fields": {"category": 7, "sku": "A504", "name": "Steelseries Arctis 7x", "description": "This is a very high quality stealthy gaming headset. While gaming you will be able to head the exact location of footsteps from your rivals. Being wireless and long lasting battery it will keep your gaming setup clean. Very comfortable cushions you will be able to enjoy gaming for a long time.", "specs": "Bluetooth: Yes\r\nType connection: Wireless/wired\r\nBattery: 28 hours\r\nSurround sound: Yes/7.1 virtual surround sound\r\nSpeaker drivers: 40mm\r\nControl buttons: Yes\r\nType fit: Overear", "price": "180.00", "rating": "4.60", "image_url": null, "image": "brandon-green-aiWjNA46Urc-unsplash.jpg"}}, {"model": "products.product", "pk": 28, "fields": {"category": 7, "sku": "A505", "name": "Audio Technica ATH-M70x", "description": "These headphones are purely music focused. Also if your are an artist you will be happy using these headphones. It's made partially out of aluminum to give it that high quality feeling and sturdiness. It's aso extremely comfortable so you will be able to use them for long periods of time.", "specs": "Bluetooth: No\r\nType connection: Wired\r\nSpeaker drivers: 50mm\r\nType fit: Overear\r\nControl buttons: No", "price": "250.00", "rating": "4.80", "image_url": null, "image": "ian-powell-IZq4N_ObNv4-unsplash.jpg"}}, {"model": "products.product", "pk": 29, "fields": {"category": 8, "sku": "A601", "name": "Apple Lightning USB-A to Lightning", "description": "Use this cable to recharge your apple products or move around some data to your pc. With 1 meters length it should be enough if your charging your phone and don't necessarily want to use it freely.", "specs": "Ports: Lightning to USB-A\r\nLength: 1 meter\r\nDevices: iPhone, Apple Watch, iPad, Airpods", "price": "25.00", "rating": "4.00", "image_url": null, "image": "adam-birkett-6cXZnFCd2KQ-unsplash.jpg"}}, {"model": "products.product", "pk": 30, "fields": {"category": 8, "sku": "A602", "name": "HDMI", "description": "With this ultra high speed cable you will be able to get 8k content if your TV/Monitor supports it. To play 8k movies you will need to buy or stream an 8k move. You will also need an 8k receiver to play those movies.", "specs": "Port: HDMI\r\nLengt: 2 meters\r\nDevices: TV's, Monitors", "price": "30.00", "rating": "4.10", "image_url": null, "image": "jeremy-bezanger-BBB-vOPfeVs-unsplash.jpg"}}, {"model": "products.product", "pk": 31, "fields": {"category": 8, "sku": "A603", "name": "Ethernet cable 5 meters", "description": "Get fast reliable wired internet by plugging this cable into your router and a device of choice. Before buying check if your device supports an ethernet cable. With 5 meters you should be able to get almost anywhere inside your home.", "specs": "Port: Ethernet\r\nLength: 5 meters\r\nDevices: Laptop, PC, Smart TV, Router, PS4, PS5, Xbox \r\nMaximum speed: 10gbps", "price": "20.00", "rating": "4.20", "image_url": null, "image": "markus-spiske-uBcgQA7fwEA-unsplash.jpg"}}, {"model": "products.product", "pk": 32, "fields": {"category": 8, "sku": "A604", "name": "Baseus USB-C cable", "description": "This is a high speed USB-C cable. With this you will be able to transfer your data with high speeds up to 5gbps. If you have an USB-C power brick you can also re-charge your mobile devices with it.", "specs": "Ports: Lightning to USB-C to USB-C\r\nLength: 1 meter \r\nDevices: Android devices, Laptop, PC\r\nMaximum Speed: 5gbps", "price": "15.00", "rating": "4.40", "image_url": null, "image": "mika-baumeister-RWxeE7wu1T8-unsplash.jpg"}}, {"model": "products.product", "pk": 33, "fields": {"category": 8, "sku": "A605", "name": "Audio cable 3 meter", "description": "With this cable you can plug it in from tv, pc, mobile device to your home entertainment  system that has RCA support. It's a 3 meter 3.5mm jack to RCA plug.", "specs": "Ports: 3.5 mm jack to 2X RCA\r\nLength: 3 meters\r\nDevices: Mobile phones, TV PC, Home entertainment system", "price": "10.00", "rating": "4.20", "image_url": null, "image": "vincent-botta-l5n5faAOS3M-unsplash.jpg"}}, {"model": "products.product", "pk": 34, "fields": {"category": 3, "sku": "A701", "name": "HP 26HLM", "description": "This high resolution 26 inch monitor is a great edition for your office. With realistic colors it's perfect for things like video/photo editing. It also has an adjustable stand to find the perfect position.", "specs": "Ports: 2x HDMI in 3.5 mm audio out\r\nSize: 26inch\r\nResolution: 3840 x 2160 pixels\r\nScreen type: IPS", "price": "400.00", "rating": "4.40", "image_url": null, "image": "dhru-j-1Ksz0Q1NU3k-unsplash.jpg"}}, {"model": "products.product", "pk": 35, "fields": {"category": 3, "sku": "A702", "name": "LG LS22", "description": "This 22 inch screen should fit nicely on a smaller desk or workspace. It has very small bezels and a still big looking screen. You should be able to do your work quite nicely with this screen or game on it.", "specs": "Ports: 1x HDMI in 3.5 mm audio out\r\nSize: 26inch\r\nResolution: 1920x 1080 pixels\r\nScreen type: IPS", "price": "230.00", "rating": "3.90", "image_url": null, "image": "jhon-paul-dela-cruz-MsUoPe1Lcco-unsplash.jpg"}}, {"model": "products.product", "pk": 36, "fields": {"category": 3, "sku": "A703", "name": "Acer ACM24", "description": "This is a 24 inch full HD monitor. It's perfect if you want a monitor to do some work on or use it as an extension to your laptop. It has very thin bezels to keep your workspace nice and clean looking and a glass screen. Colors will look pretty and vivid due to the beautiful OLED screen", "specs": "Ports: 2x HDMI in 3.5 mm audio out\r\nSize: 24inch\r\nResolution: 1920 x 1080 pixels\r\nScreen type: OLED", "price": "1500.00", "rating": "4.70", "image_url": null, "image": "kitai-jogia-zhvaeh-R9rA-unsplash.jpg"}}, {"model": "products.product", "pk": 37, "fields": {"category": 3, "sku": "A704", "name": "LG WC20C", "description": "Do you have alot of video meetings and don't want a separate webcam. Than this is the monitor for you. It has a full HD webcam built into the top part of the monitor. Besides that it's a full HD screen with good looking colors so not only will you look good, but also the people you are talking to will look sharp as long as there is a good internet connection.", "specs": "Ports: 2x HDMI in 3.5 mm audio out\r\nSize: 240nch\r\nResolution: 1920 x 1080 pixels\r\nScreen type: IPS \r\nBuiltin webcam: Yes", "price": "350.00", "rating": "4.00", "image_url": null, "image": "rohit-KZnfwqi-B0U-unsplash.jpg"}}]
+[{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "category": 1,
+        "sku": "A101",
+        "name": "Apple 16-inch",
+        "description": "This pc is a 16-inch and has a beautiful 5k screen. \r\nSo if you use a program like photo shop you can see every little detail.\r\nIt has a 16 RAM in it. \r\nYou can run heavy programs and games on it.",
+        "specs": "RAM: 16GB\r\nScreen size: 16 inch \r\nTouchscreen included \r\nBluetooth: Yes",
+        "price": "1600.00",
+        "rating": "4.00",
+        "image_url": null,
+        "image": "gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "category": 1,
+        "sku": "A102",
+        "name": "Apple imac desktop",
+        "description": "This sleak desktop will run any program that you can think of and even more!\r\nThe graphics will make any photo or video look like a professional one. \r\nThe sound is amazing.",
+        "specs": "Build in speakers: No\r\nCD drive: included \r\nType material: Aluminium \r\nProcessor: Intel i9",
+        "price": "1700.00",
+        "rating": "4.00",
+        "image_url": null,
+        "image": "nana-dua-aDdri5jsFZk-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "category": 1,
+        "sku": "A103",
+        "name": "Lian Li Bauer",
+        "description": "This is al beautiful gaming desktop with RGB lights built in. \r\nYou can change the colors in every color that you want. \r\nHe is powerful enough for the biggest games.",
+        "specs": "turbo speed: 5,6 GHz\r\nRAM: 32 GB\r\nSystem: Windows \r\nUSB-A poort: 4 pieces",
+        "price": "1950.00",
+        "rating": "5.00",
+        "image_url": null,
+        "image": "olivier-collet-VDGBFiaM6Cs-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "category": 1,
+        "sku": "A104",
+        "name": "Medion x350",
+        "description": "This desktop gives you the ability to hide al your buttons that why it gives a sleak  look. \r\nThe pc is perfect for office work or design work. \r\nThis has a CD drive hidden which makes it backward compatible  with  old pc's.\r\nIf you are dissatisfied with the product you can return it in 30 days.",
+        "specs": "CD drive: Yes\r\nRAM: 8 GB \r\nType of storage: SSD + HDD\r\nBluetooth: Yes",
+        "price": "560.00",
+        "rating": "3.00",
+        "image_url": null,
+        "image": "WhatsApp_Image_2022-04-17_at_16.29.41.jpeg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "category": 2,
+        "sku": "A201",
+        "name": "Acer Y346",
+        "description": "This laptop has a  beautiful HD screen. \r\nIt is a 17 inch screen with a built in webcamera that you can turn it on and off. \r\nThis laptop has touchscreen.",
+        "specs": "Touchscreen: Yes\r\nOperating system: Windows \r\nRAM: 8 GB \r\nScreen size: 14 inch",
+        "price": "680.00",
+        "rating": "4.00",
+        "image_url": null,
+        "image": "anete-lusina-zwsHjakE_iI-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "category": 2,
+        "sku": "A202",
+        "name": "Dell G534",
+        "description": "This laptop has a webcam that below the screen. \r\nthe laptop is easy to take with you if you are traveling because he is a light weigh. \r\nIt is a 14 inch laptop.",
+        "specs": "Type of storage: SSD\r\nHeadphone connection: Yes\r\nKeyboard layout: QWERTY\r\nHDMI : Yes",
+        "price": "549.00",
+        "rating": "3.00",
+        "image_url": null,
+        "image": "erick-cerritos-i5UV2HpITYA-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "category": 2,
+        "sku": "A203",
+        "name": "HP 5g478",
+        "description": "This HP laptop is a very compact laptop that can run photo shop and video added very good and easy. \r\nAlso you can play games like minecraft. \r\nThe battery can go for 7 hours without charging the battery.\r\nWith this laptop you get free microsoft office.",
+        "specs": "Battery: 7 hours\r\nOffice word: Yes\r\nImage quality: HD \r\nWifi: Yes",
+        "price": "750.00",
+        "rating": "4.00",
+        "image_url": null,
+        "image": "kari-shea-1SAnrIxw5OY-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "category": 2,
+        "sku": "A204",
+        "name": "HP y344",
+        "description": "This laptop has anti reflective screen so if you are in the garden or somewhere outside and the sun is shining you don't have to worry because the screen will screen will not reflect. \r\nthis laptop can keep up to 10 hours without charging. \r\nso it is a good laptop for traveling.",
+        "specs": "Battery: 10 hours\r\nWebcam: Yes \r\nScreen quality: HD\r\nUSB connection: 3 included",
+        "price": "900.00",
+        "rating": "4.00",
+        "image_url": null,
+        "image": "mika-baumeister-7KLpKCG05vI-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+        "category": 2,
+        "sku": "A205",
+        "name": "MSi G500",
+        "description": "His laptop is a gaming laptop and can run any game. \r\nAlso you can run video editor and foto shop on it. \r\nIt has a beautiful keyboard with lights in it you can change the colors in every color you like.",
+        "specs": "Keyboard backlight: Yes/red\r\nScreen size: 16 inch \r\nProcessor: i7\r\ntype storage: SSD",
+        "price": "1500.00",
+        "rating": "4.00",
+        "image_url": null,
+        "image": "vadim-artyukhin-bBqMGSGaOXw-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+        "category": 4,
+        "sku": "A301",
+        "name": "Logitech EditorsKeys",
+        "description": "This keyboard is good for office works because of the ergonomics. You can type for a long time without hurting your hands and it has a sleek design.",
+        "specs": "Connection: Wireless\r\nErgonomic design: Yes\r\nBluetooth: Yes\r\nBacklight: Yes",
+        "price": "120.00",
+        "rating": "4.20",
+        "image_url": null,
+        "image": "editors-keys-CtDrd7mWW6M-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+        "category": 4,
+        "sku": "A302",
+        "name": "Red Dragon rd305",
+        "description": "This keyboard has a gaming look with RGB lights. With software from reddragon you can change every key's color to what you want. It is good for gaming",
+        "specs": "Suitable for gaming: Yes\r\nConnection type: Wire\r\nRGB: Yes\r\nType: Mechanical",
+        "price": "70.00",
+        "rating": "3.80",
+        "image_url": null,
+        "image": "rebekah-yip-42-_8bvyBz8-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+        "category": 4,
+        "sku": "A303",
+        "name": "Logitech TinyKeys",
+        "description": "This keyboard is very compact and light. Its good for traveling around with. It's also a wireless keyboard to make it easier.",
+        "specs": "Backlight: No\r\nPowersuply: Internal battery\r\nBluetooth: Yes\r\nFlat keys: Yes",
+        "price": "80.00",
+        "rating": "4.50",
+        "image_url": null,
+        "image": "sebastian-banasiewcz-CMs6ZGOdyho-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+        "category": 4,
+        "sku": "A304",
+        "name": "Trust b7",
+        "description": "This is a wired keyboard so no worries about charging it. It's a simple and minimalistic design",
+        "specs": "Connection: Wire\r\nBacklight: No\r\nBluetooth: No",
+        "price": "30.00",
+        "rating": "3.60",
+        "image_url": null,
+        "image": "olena-sergienko-cHlK4sZXOQo-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+        "category": 4,
+        "sku": "A305",
+        "name": "Redkeys 350",
+        "description": "This is a mechanical keyboard so if you have to work for long hours than this is a perfect suit for you. It is wireless and you can use it for up to 3 weeks before charging it again.",
+        "specs": "Bluetooth: Yes\r\nConnection: Wireless/wired\r\nPowersuply: Internal battery\r\nBacklight: No",
+        "price": "90.00",
+        "rating": "4.80",
+        "image_url": null,
+        "image": "stefen-tan-KYw1eUx1J7Y-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+        "category": 5,
+        "sku": "A401",
+        "name": "Logitech G100",
+        "description": "This mouse has a damper in it so it is as quiet as a mouse. You don't have to worry about your colleagues being noisy.",
+        "specs": "Bluetooth: Yes\r\nSilent: Yes\r\nPowersuply: 2x AAA Bettery",
+        "price": "50.00",
+        "rating": "4.10",
+        "image_url": null,
+        "image": "frankie-VghbBAYqUJ0-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+        "category": 5,
+        "sku": "A402",
+        "name": "Logitech A201",
+        "description": "This is a very small compact wireless mouse. You can easily travel with it. It also helps that it is a bluetooth mouse with interchangeable batteries.",
+        "specs": "Bluetooth: Yes\r\nPowersuply: 2x AAA Batteries\r\nCompact: Yes",
+        "price": "25.00",
+        "rating": "3.60",
+        "image_url": null,
+        "image": "jeremy-bezanger-gyIMi9RdUTs-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 21,
+    "fields": {
+        "category": 5,
+        "sku": "A403",
+        "name": "Windows Mouse",
+        "description": "This is a very simple ergonomic mouse for making long hours with. It helps that its very thin and very lightweight. The batteries will last up to a month depending on the use.",
+        "specs": "Ergonomic: Yes\r\nWireless: Yes\r\nPowersuply: Internal battery",
+        "price": "90.00",
+        "rating": "3.90",
+        "image_url": null,
+        "image": "katlyn-luz-JOef0jIIYDM-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 22,
+    "fields": {
+        "category": 5,
+        "sku": "A404",
+        "name": "Logitech G150",
+        "description": "This is a wired gaming mouse. It has programmable keys on the side using Logitec's software. You lights can be changed or give it a certain pattern also with the Logitec app.",
+        "specs": "Connection: Wired\r\nRGB: Yes\r\nProgrammable keys: Yes",
+        "price": "80.00",
+        "rating": "4.30",
+        "image_url": null,
+        "image": "ryan-putra-j4PqlNVZ4Bc-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 23,
+    "fields": {
+        "category": 5,
+        "sku": "A405",
+        "name": "Logitech MX Master3",
+        "description": "This is a very large very comfortable mouse to use. All the keys accept the left and right clicks are programmable to do what you want them to do. Besides the main scroll button in the middle theres an extra one  which you can program to for example zoom in and out.",
+        "specs": "Wireless: Yes\r\nSilent: No\r\nPowersuply: Internal battery\r\nProgrammable keys: Yes",
+        "price": "110.00",
+        "rating": "4.80",
+        "image_url": null,
+        "image": "stefen-tan-ndUby2p2ptY-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 24,
+    "fields": {
+        "category": 7,
+        "sku": "A501",
+        "name": "Corsair gt500",
+        "description": "This is a simple stealthy gaming headset. It uses a 3.5mm jack so you can use it with anything that has it. There is removable microphone included. With thick soft foam on top it's very comfortable as well and you can use it comfortable for long gaming sessions or listening to music",
+        "specs": "Bluetooth: No\r\nType connection: Wired\r\nSurround sound: Yes/7.1 virtual surround sound\r\nSpeaker drivers: 50mm\r\nControl buttons: Yes\r\nType fit: Overear",
+        "price": "70.00",
+        "rating": "4.10",
+        "image_url": null,
+        "image": "andrew-m-d4Bk6VRyfXo-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 25,
+    "fields": {
+        "category": 7,
+        "sku": "A502",
+        "name": "Razer Nari Ultimate",
+        "description": "The ultimate gaming headset. This is made for gamers who really want the feeling that they are inside the game they are playing. With extra haptic feedback motors in both auricles it will give the game an extra depth. You will be able to feel every bullet going beside you and every explosion happening.",
+        "specs": "Bluetooth: Yes\r\nType connection: Wireless/wired\r\nBattery: 20 hours\r\nSurround sound: Yes/7.1\r\nSpeaker drivers: 50mm\r\nControl buttons: Yes\r\nType fit: Overear",
+        "price": "200.00",
+        "rating": "4.60",
+        "image_url": null,
+        "image": "anton-maksimov-5642-su-_jn3oOccQtM-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 26,
+    "fields": {
+        "category": 7,
+        "sku": "A503",
+        "name": "Bose Comfort 45",
+        "description": "This is the best of the best when it comes to sound quality, comfort and noise canceling. It's very light so you will be able to listen to your music for long periods of time. It has one of the best noise canceling out there. You are able to adjust the noise canceling through the Bose app. It also helps that its wireless so you have all the freedom.",
+        "specs": "Bluetooth: Yes\r\nType connection: Wireless/wired\r\nBattery: 24 hours\r\nSurround sound: No\r\nControl buttons: Yes\r\nType fit: Overear",
+        "price": "350.00",
+        "rating": "4.80",
+        "image_url": null,
+        "image": "anubhav-arora-_RlzDPORSOM-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 27,
+    "fields": {
+        "category": 7,
+        "sku": "A504",
+        "name": "Steelseries Arctis 7x",
+        "description": "This is a very high quality stealthy gaming headset. While gaming you will be able to head the exact location of footsteps from your rivals. Being wireless and long lasting battery it will keep your gaming setup clean. Very comfortable cushions you will be able to enjoy gaming for a long time.",
+        "specs": "Bluetooth: Yes\r\nType connection: Wireless/wired\r\nBattery: 28 hours\r\nSurround sound: Yes/7.1 virtual surround sound\r\nSpeaker drivers: 40mm\r\nControl buttons: Yes\r\nType fit: Overear",
+        "price": "180.00",
+        "rating": "4.60",
+        "image_url": null,
+        "image": "brandon-green-aiWjNA46Urc-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 28,
+    "fields": {
+        "category": 7,
+        "sku": "A505",
+        "name": "Audio Technica ATH-M70x",
+        "description": "These headphones are purely music focused. Also if your are an artist you will be happy using these headphones. It's made partially out of aluminum to give it that high quality feeling and sturdiness. It's aso extremely comfortable so you will be able to use them for long periods of time.",
+        "specs": "Bluetooth: No\r\nType connection: Wired\r\nSpeaker drivers: 50mm\r\nType fit: Overear\r\nControl buttons: No",
+        "price": "250.00",
+        "rating": "4.80",
+        "image_url": null,
+        "image": "ian-powell-IZq4N_ObNv4-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 29,
+    "fields": {
+        "category": 8,
+        "sku": "A601",
+        "name": "Apple Lightning USB-A to Lightning",
+        "description": "Use this cable to recharge your apple products or move around some data to your pc. With 1 meters length it should be enough if your charging your phone and don't necessarily want to use it freely.",
+        "specs": "Ports: Lightning to USB-A\r\nLength: 1 meter\r\nDevices: iPhone, Apple Watch, iPad, Airpods",
+        "price": "25.00",
+        "rating": "4.00",
+        "image_url": null,
+        "image": "adam-birkett-6cXZnFCd2KQ-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 30,
+    "fields": {
+        "category": 8,
+        "sku": "A602",
+        "name": "HDMI",
+        "description": "With this ultra high speed cable you will be able to get 8k content if your TV/Monitor supports it. To play 8k movies you will need to buy or stream an 8k move. You will also need an 8k receiver to play those movies.",
+        "specs": "Port: HDMI\r\nLengt: 2 meters\r\nDevices: TV's, Monitors",
+        "price": "30.00",
+        "rating": "4.10",
+        "image_url": null,
+        "image": "jeremy-bezanger-BBB-vOPfeVs-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 31,
+    "fields": {
+        "category": 8,
+        "sku": "A603",
+        "name": "Ethernet cable 5 meters",
+        "description": "Get fast reliable wired internet by plugging this cable into your router and a device of choice. Before buying check if your device supports an ethernet cable. With 5 meters you should be able to get almost anywhere inside your home.",
+        "specs": "Port: Ethernet\r\nLength: 5 meters\r\nDevices: Laptop, PC, Smart TV, Router, PS4, PS5, Xbox \r\nMaximum speed: 10gbps",
+        "price": "20.00",
+        "rating": "4.20",
+        "image_url": null,
+        "image": "markus-spiske-uBcgQA7fwEA-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 32,
+    "fields": {
+        "category": 8,
+        "sku": "A604",
+        "name": "Baseus USB-C cable",
+        "description": "This is a high speed USB-C cable. With this you will be able to transfer your data with high speeds up to 5gbps. If you have an USB-C power brick you can also re-charge your mobile devices with it.",
+        "specs": "Ports: Lightning to USB-C to USB-C\r\nLength: 1 meter \r\nDevices: Android devices, Laptop, PC\r\nMaximum Speed: 5gbps",
+        "price": "15.00",
+        "rating": "4.40",
+        "image_url": null,
+        "image": "mika-baumeister-RWxeE7wu1T8-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 33,
+    "fields": {
+        "category": 8,
+        "sku": "A605",
+        "name": "Audio cable 3 meter",
+        "description": "With this cable you can plug it in from tv, pc, mobile device to your home entertainment  system that has RCA support. It's a 3 meter 3.5mm jack to RCA plug.",
+        "specs": "Ports: 3.5 mm jack to 2X RCA\r\nLength: 3 meters\r\nDevices: Mobile phones, TV PC, Home entertainment system",
+        "price": "10.00",
+        "rating": "4.20",
+        "image_url": null,
+        "image": "vincent-botta-l5n5faAOS3M-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 34,
+    "fields": {
+        "category": 3,
+        "sku": "A701",
+        "name": "HP 26HLM",
+        "description": "This high resolution 26 inch monitor is a great edition for your office. With realistic colors it's perfect for things like video/photo editing. It also has an adjustable stand to find the perfect position.",
+        "specs": "Ports: 2x HDMI in 3.5 mm audio out\r\nSize: 26inch\r\nResolution: 3840 x 2160 pixels\r\nScreen type: IPS",
+        "price": "400.00",
+        "rating": "4.40",
+        "image_url": null,
+        "image": "dhru-j-1Ksz0Q1NU3k-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 35,
+    "fields": {
+        "category": 3,
+        "sku": "A702",
+        "name": "LG LS22",
+        "description": "This 22 inch screen should fit nicely on a smaller desk or workspace. It has very small bezels and a still big looking screen. You should be able to do your work quite nicely with this screen or game on it.",
+        "specs": "Ports: 1x HDMI in 3.5 mm audio out\r\nSize: 26inch\r\nResolution: 1920x 1080 pixels\r\nScreen type: IPS",
+        "price": "230.00",
+        "rating": "3.90",
+        "image_url": null,
+        "image": "jhon-paul-dela-cruz-MsUoPe1Lcco-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 36,
+    "fields": {
+        "category": 3,
+        "sku": "A703",
+        "name": "Acer ACM24",
+        "description": "This is a 24 inch full HD monitor. It's perfect if you want a monitor to do some work on or use it as an extension to your laptop. It has very thin bezels to keep your workspace nice and clean looking and a glass screen. Colors will look pretty and vivid due to the beautiful OLED screen",
+        "specs": "Ports: 2x HDMI in 3.5 mm audio out\r\nSize: 24inch\r\nResolution: 1920 x 1080 pixels\r\nScreen type: OLED",
+        "price": "1500.00",
+        "rating": "4.70",
+        "image_url": null,
+        "image": "kitai-jogia-zhvaeh-R9rA-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 37,
+    "fields": {
+        "category": 3,
+        "sku": "A704",
+        "name": "LG WC20C",
+        "description": "Do you have alot of video meetings and don't want a separate webcam. Than this is the monitor for you. It has a full HD webcam built into the top part of the monitor. Besides that it's a full HD screen with good looking colors so not only will you look good, but also the people you are talking to will look sharp as long as there is a good internet connection.",
+        "specs": "Ports: 2x HDMI in 3.5 mm audio out\r\nSize: 240nch\r\nResolution: 1920 x 1080 pixels\r\nScreen type: IPS \r\nBuiltin webcam: Yes",
+        "price": "350.00",
+        "rating": "4.00",
+        "image_url": null,
+        "image": "rohit-KZnfwqi-B0U-unsplash.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 38,
+    "fields": {
+        "category": 9,
+        "sku": "A801",
+        "name": "MSI Thin GF65",
+        "description": "This is a very thin high performance gaming laptop.  It's light weight makes it very portable for a 17 inch gaming laptop",
+        "specs": "Processor: Intel i7\r\nGraphics card: GeForce GTX 1660Ti\r\nRAM: 8GB\r\nDisplay: LCD",
+        "price": "1000.00",
+        "rating": null,
+        "image_url": null,
+        "image": "aalaptop_h1Ngz5o.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 39,
+    "fields": {
+        "category": 9,
+        "sku": "A802",
+        "name": "Samsung TVM-24",
+        "description": "This is a TV-monitor combination. It's perfect if you want to use it as a normal tv. But being a monitor and being 24 inches it's also ideal if you want to use it as a second screen for a laptop or PC",
+        "specs": "Ports: 2x HDMI in 3.5 mm audio out, 1x USB port, TV cable, VGA\r\nSize: 24inch \r\nResolution: 1920 x 1080 pixels \r\nScreen type: LCD",
+        "price": "150.00",
+        "rating": null,
+        "image_url": null,
+        "image": "aamonitor_PDIChsc.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 40,
+    "fields": {
+        "category": 9,
+        "sku": "A803",
+        "name": "Logitech MX Keys and MX Anywhere",
+        "description": "The perfect combination of mouse and keyboard. With the logitech app you can add these two products and customize what certain keys do what in different situations. The MX keys has a on toutch backlight function which turns the backlight on upon use.",
+        "specs": "Backlight: Yes\r\nBluetooth: Yes\r\nPower supply: Rechargeable battery",
+        "price": "80.00",
+        "rating": null,
+        "image_url": null,
+        "image": "aakeyboard-mouse_MnPMznQ.jpg"
+    }
+}]
