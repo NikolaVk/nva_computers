@@ -40,7 +40,6 @@ function setlightmode(event) {
         document.cookie = "darkmode=0;path=/;expires=" + ((new Date()).getTime() + (365 * 24 * 3600 * 1000));
     }
     document.body.classList.remove("godark");
-    event.stopPropagation();
 }
 
 function setdarkmode(event) {
