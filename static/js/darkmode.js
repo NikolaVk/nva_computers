@@ -79,5 +79,4 @@ function setdarkmode(event) {
         document.cookie = "darkmode=1;path=/;expires=" + ((new Date()).getTime() + (365 * 24 * 3600 * 1000));
     }
     document.body.classList.add("godark");
-    event.stopPropagation();
 }
