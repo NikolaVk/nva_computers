@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /contact/
+Disallow: /reviews/
+Disallow: /checkout/
+Siteman: http://nva-computers.herokuapp.com/sitemap.xml
