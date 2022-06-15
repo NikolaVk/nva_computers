@@ -316,6 +316,36 @@ footer {
     border: none;
 }
 
+.contact-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.askus-box {
+    margin-bottom: 20px;
+}
+
+.facebook-box {
+    background-color: #007BFF;
+    border: 1px solid #007BFF;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    height: 130px;
+    width: 100%;
+    padding: 30px 15px 0px 15px;
+    align-items: flex-end;
+}
+
+.facebook-btn {
+    color: #000;
+}
+
+.facebook-btn:hover {
+    color: #fff;
+}
+
+
 /* -------------------------------- Darkmode Button */
 
 .darkmode {
