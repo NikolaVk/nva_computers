@@ -442,6 +442,10 @@ footer {
     color: #000;
 }
 
+.godark .invalid-feedback {
+    color: #fff;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
