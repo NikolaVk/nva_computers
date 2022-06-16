@@ -1,0 +1,17 @@
+{% block content %}
+<div class="error-container">
+    <span class="error-icon">
+        <i class="fas fa-solid fa-robot"></i>
+    </span>
+
+    <strong class="error-msg">
+        <h2>Our apologies this page can't be found</h2>
+    </strong>
+
+    <button class="back-homebtn">
+        <a href="{% url 'home' %}" class=" main-logo-link">
+            <h2><strong>Take me Back!</strong></h2>
+        </a>
+    </button>
+</div>
+{% endblock %}

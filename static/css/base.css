@@ -476,6 +476,39 @@ footer {
     color: #fff;
 }
 
+/* -------------------------------- Error 404 */
+
+.error-container {
+    background-color: #808080;
+    padding-top: 200px;
+    height: 800px;
+    text-align: center;
+}
+
+.error-icon {
+    font-size: 200px;
+    color: #000;
+}
+
+.error-msg {
+    color: #000;
+}
+
+.back-homebtn {
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 400px;
+    background-color: #EAB301;
+}
+
+.back-homebtn:hover {
+    background-color: #fff;
+}
+
+.back-homebtn h2 {
+    color: #000;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
