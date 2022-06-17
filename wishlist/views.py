@@ -10,6 +10,8 @@ from .models import Wishlist
 
 def wishlist(request):
     lists = Wishlist.objects.filter(user_id=request.user.id)
+    ourlist = []
+    products = []
     if lists.count()!=0:
         ourlist = lists.first()
         products = ourlist.list.all()
@@ -48,7 +50,7 @@ def add_wishlist(request, item_id):
 def remove_wishlist(request, item_id):
     url = request.META.get('HTTP_REFERER')
     product = get_object_or_404(Product, pk=item_id)
-    wishlist = Wishlist.objects.filter(user_id=request.user.id,list__id=product.id)
+    wishlist = Wishlist.objects.filter(user_id=request.user.id, list__id=product.id)
     
     redirect_url = request.POST.get('redirect_url')
     if wishlist.count() == 0:
@@ -58,6 +60,5 @@ def remove_wishlist(request, item_id):
         wishListItem = wishlist.first()
         wishListItem.list.remove(product)
         messages.success(request, f'Succesfully removed {product.name} from wishlist!')
-
 
     return HttpResponseRedirect(url)
