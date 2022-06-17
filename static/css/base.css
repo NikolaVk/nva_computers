@@ -481,7 +481,7 @@ footer {
 .error-container {
     background-color: #808080;
     padding-top: 200px;
-    height: 800px;
+    height: 100%;
     text-align: center;
 }
 
