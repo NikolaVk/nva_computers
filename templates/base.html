@@ -45,7 +45,6 @@
 <body>
     <script src="{% static 'js/darkmode_trigger.js' %}"></script>
     {% if navbar != False %}
-    {% include 'header' %}
     <header class="container-fluid fixed-top p-0">
         <div id="topnav" class="row g-0 bg-white py-lg-3 d-none d-lg-flex">
             <div class="col-12 col-lg-2 my-auto pt-1 text-center text-lg-left">
@@ -205,7 +204,6 @@
         {% endblock %}
     </div>
     {% if footer != False %}
-    {% include 'footer' %}
     <footer class="row g-0 pt-3 m-0">
         <div class="col-sm-12 col-lg-6 col-md-6 d-none d-md-block foot p-0">
             <h3 class="logo-font font-weight-bold text-black">Categories</h3>
