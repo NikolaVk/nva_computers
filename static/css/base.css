@@ -492,6 +492,7 @@ footer {
 
 .error-msg {
     color: #000;
+    padding: 20px;
 }
 
 .back-homebtn {
@@ -616,6 +617,23 @@ footer {
 
     i {
         font-size: 20px;
+    }
+
+    .error-icon i {
+        font-size: 120px;
+    }
+
+    .error-msg h2 {
+        font-size: 25px;
+    }
+
+    .back-homebtn {
+        width: 240px;
+        font-size: 20px;
+    }
+
+    .back-homebtn h2 {
+        font-size: 25px;
     }
 }
 
