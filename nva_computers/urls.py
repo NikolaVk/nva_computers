@@ -31,3 +31,5 @@ urlpatterns = [
     path('contact/', include('contact.urls')),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+handler404 = "nva_computers.views.page_not_found_view"
