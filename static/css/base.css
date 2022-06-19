@@ -5,13 +5,16 @@ html {
 body {
     background: url('/media/martin-katler-PAB8jxMbcNg-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    min-height: 100vh;
     color: #555;
     font-family: 'Lato';
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 .home-p {
-    min-height: 700px;
+    flex-grow: 1;
 }
 
 .backblur {
@@ -479,10 +482,21 @@ footer {
 /* -------------------------------- Error 404 */
 
 .error-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
     background-color: #808080;
-    padding-top: 200px;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     text-align: center;
+}
+
+.error-center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .error-icon {
