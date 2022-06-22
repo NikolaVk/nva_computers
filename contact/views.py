@@ -21,14 +21,15 @@ def contact(request):
         contactform = ContactForm(contact_form)
         if contactform.is_valid():
             contact = contactform.save(commit=False)
-            #contact.product = product
 
             contact.save()
             messages.success(request, 'Succesfully submitted your message!')
             return redirect('/')
 
         else:
-            messages.error(request, 'We are sorry your message was not submitted. Check your form.')
+            messages.error(request,
+                           'We are sorry your message was not submitted.',
+                           'Check your form.')
             return redirect('/')
 
     else:

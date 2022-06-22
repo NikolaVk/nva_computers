@@ -4,8 +4,6 @@ from .models import Wishlist
 
 class WishlistAdmin(admin.ModelAdmin):
 
-    # filter_horizontal = ('list',)
-
     list_display = (
          'user',
          'get_listproducts',

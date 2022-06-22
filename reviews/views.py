@@ -5,8 +5,6 @@ from products.models import Product
 from .forms import ReviewForm
 
 
-# Create your views here.
-
 @login_required
 def reviews_rating(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
@@ -30,7 +28,8 @@ def reviews_rating(request, product_id):
             return redirect('product_detail', product_id)
 
         else:
-            messages.error(request, 'We are sorry review has not been added. Check your form.')
+            messages.error(request, 'We are sorry review has not been added.',
+                           'Check your form.')
             return redirect('product_detail', product_id)
 
     else:

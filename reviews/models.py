@@ -7,8 +7,10 @@ from products.models import Product
 
 
 class Review(models.Model):
-    user = models.ForeignKey(User, null=False, blank=False, on_delete=models.CASCADE)
-    product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, null=False, blank=False,
+                             on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, null=False, blank=False,
+                                on_delete=models.CASCADE)
     title = models.CharField(max_length=250, blank=True, null=True)
     comment = models.TextField()
     rating = models.IntegerField(default=5, validators=[MaxValueValidator(5),
