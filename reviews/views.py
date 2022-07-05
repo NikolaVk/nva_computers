@@ -1,7 +1,9 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.db.models import Avg
 from products.models import Product
+from .models import Review
 from .forms import ReviewForm
 
 
@@ -24,6 +26,10 @@ def reviews_rating(request, product_id):
             review.product = product
 
             review.save()
+            avg = Review.objects.filter(
+                product_id=product_id).aggregate(Avg('rating'))['rating__avg']
+            product.rating = float(avg)
+            product.save(update_fields=['rating'])
             messages.success(request, 'Succesfully added your review!')
             return redirect('product_detail', product_id)
 

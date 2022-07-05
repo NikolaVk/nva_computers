@@ -69,7 +69,7 @@ def product_detail(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
     reviews = Review.objects.filter(product_id=product_id)
-    score = Review.objects.filter(product_id=product_id).aggregate(Avg('rating'))
+    score = product.rating
     list = Wishlist.objects.filter(
             list__id=product_id, user_id=request.user.id)
     if list.count() == 0:
