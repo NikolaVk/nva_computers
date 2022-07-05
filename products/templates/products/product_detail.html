@@ -55,7 +55,7 @@
                 </p>
                 {% endif %}
                 {% if product.rating %}
-                <small class="text-muted dark-font"><i class="fas fa-star mr-1 text-warning"></i>{{ score.rating__avg|floatformat:1 }} / 5</small>
+                <small class="text-muted dark-font"><i class="fas fa-star mr-1 text-warning"></i>{{ score|floatformat:1 }} / 5</small>
                 {% else %}
                 <small class="text-muted">No Rating</small>
                 {% endif %}
