@@ -40,7 +40,6 @@
                         <tr>
                             <th>Order Number</th>
                             <th>Date</th>
-                            <th>Items</th>
                             <th>Order Total</th>
                         </tr>
                     </thead>
@@ -61,9 +60,10 @@
             </div>
         </div>
     </div>
-    {% endblock %}
+</div>
+{% endblock %}
 
-    {% block postloadjs %}
-    {{ block.super }}
-    <script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
-    {% endblock %}
+{% block postloadjs %}
+{{ block.super }}
+<script src="{% static 'profiles/js/countryfield.js' %}"></script>
+{% endblock %}

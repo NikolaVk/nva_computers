@@ -122,7 +122,7 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
-/* ------------------------------- bootstrap toasts */
+/* bootstrap toasts */
 
 .message-container {
     position: fixed;
@@ -190,7 +190,7 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
-/* --------------------------------Logo */
+/*-Logo */
 
 .logo {
     border: 1px solid #EAB301;
@@ -217,7 +217,7 @@ input[name='q']::placeholder {
     background-color: #EAB301;
 }
 
-/* -------------------------------- Dropdown Submenu */
+/*- Dropdown Submenu */
 
 
 .dropdown-submenu {
@@ -280,13 +280,13 @@ input[name='q']::placeholder {
 }
 
 
-/* --------------------------------Products */
+/*-Products */
 .card-img {
     height: 250px;
     width: 100%;
 }
 
-/* --------------------------------Reviews */
+/*-Reviews */
 
 .review_card {
     border: 1px solid black;
@@ -299,7 +299,7 @@ input[name='q']::placeholder {
     color: #999999;
 }
 
-/* --------------------------------Footer */
+/*-Footer */
 
 footer {
     background-color: #EAB301;
@@ -347,7 +347,7 @@ footer {
 }
 
 
-/* -------------------------------- Darkmode Button */
+/*- Darkmode Button */
 
 .darkmode {
     background-color: #fff;
@@ -382,7 +382,7 @@ footer {
     display: none;
 }
 
-/* -------------------------------- Darkmode Animation */
+/*- Darkmode Animation */
 
 @keyframes up {
     100% {
@@ -396,7 +396,7 @@ footer {
     }
 }
 
-/* -------------------------------- Darkmode Colors */
+/*- Darkmode Colors */
 .godark .overlay {
     background-color: #212121 !important;
     transition: background-color 0.5s;
@@ -477,7 +477,7 @@ footer {
     color: #fff;
 }
 
-/* -------------------------------- Error 404 */
+/*- Error 404 */
 
 .error-container {
     position: absolute;
@@ -549,7 +549,7 @@ footer {
     width: 50%;
 }
 
-/* -------------------------------- Media Queries */
+/*- Media Queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {

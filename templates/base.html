@@ -53,58 +53,59 @@
                     <h2 class="logo-font font-weight-bold text-black logo p-2"><strong>NVA</strong><strong class="capitalize">Computers</strong></h2>
                 </a>
             </div>
-            <!-- --------------------- DARKMODE START ----------------------->
+            <!-- DARKMODE START -->
             <div class="col-12 col-lg-1">
                 <div class="darkmode darkmode_disabled lightmode-btt" onclick="setlightmode(event);"><i class="fas fa-sun  fa-lg"></i></div>
                 <div class="darkmode light darkmode_enabled darkmode-btt" onclick="setdarkmode(event);"><i class="fas fa-moon fa-lg"></i></div>
             </div>
 
-            <!-- --------------------- DARKMODE END ----------------------->
-            <!-- --------------------- DROPDOWN START ----------------------->
+            <!-- DARKMODE END -->
+            <!-- DROPDOWN START -->
             <div class="dropdown dark-font col-12 col-lg-2 w-25 my-auto py-1 py-lg-0 text-center text-lg-left">
-                <a id="dLabel" role="button" data-toggle="dropdown" class="btn logo-font font-weight-bold nav-link text-black mr-5 dark" data-target="#" href="/page.html">
+                <a id="dropdownMenu" role="button" data-toggle="dropdown" class="btn logo-font font-weight-bold nav-link text-black mr-5 dark" href="/page.html">
                     Categories <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu multi-level dark" role="menu" aria-labelledby="dropdownMenu">
                     <li class="divider"></li>
                     <li class="dropdown-submenu">
-                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5 submenu_handling" id="systems-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PC and Laptopss</a>
-                        <ul class="dropdown-menu border-0 submenu_container" aria-labelledby="systems-link">
-                            <a tabindex="-1" href="{% url 'products' %}?category=pc" class="dropdown-item">PC's</a>
-                            <a href="{% url 'products' %}?category=laptop" class="dropdown-item">Laptop's</a>
-                            <a href="{% url 'products' %}?category=laptop,pc" class="dropdown-item">All PC'S and Laptop's</a>
+                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5 submenu_handling" id="systems-link1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PC and Laptopss</a>
+                        <ul class="dropdown-menu border-0 submenu_container" aria-labelledby="systems-link1">
+                            <li><a class="dropdown-item" tabindex="-1" href="{% url 'products' %}?category=pc">PC's</a></li>
+                            <li><a class="dropdown-item" href="{% url 'products' %}?category=laptop">Laptop's</a></li>
+                            <li><a class="dropdown-item" href="{% url 'products' %}?category=laptop,pc">All PC'S and Laptop's</a></li>
                         </ul>
 
                     </li>
 
                     <li class="dropdown-submenu">
-                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5 submenu_handling" id="hardware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hardware</a>
-                        <ul class="dropdown-menu border-0 submenu_container" aria-labelledby="hardware-link">
-                            <a tabindex="-1" href="{% url 'products' %}?category=speakers" class="dropdown-item">Speakers</a>
-                            <a href="{% url 'products' %}?category=headphones" class="dropdown-item">Headphones</a>
-                            <a href="{% url 'products' %}?category=keyboards" class="dropdown-item">Keyboards</a>
-                            <a href="{% url 'products' %}?category=mouse" class="dropdown-item">Mouse</a>
-                            <a href="{% url 'products' %}?category=monitors" class="dropdown-item">Monitors</a>
-                            <a href="{% url 'products' %}?category=cables" class="dropdown-item">Cables</a>
-
-                            <a href="{% url 'products' %}?category=speakers,headphones,keyboards,mouse,monitors,cables" class="dropdown-item">All Hardware</a>
+                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5 submenu_handling" id="hardware-link1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hardware</a>
+                        <ul class="dropdown-menu border-0 submenu_container" aria-labelledby="hardware-link1">
+                            <li><a class="dropdown-item" tabindex="-1" href="{% url 'products' %}?category=speakers">Speakers</a></li>
+                            <li><a class="dropdown-item" href="{% url 'products' %}?category=headphones">Headphones</a></li>
+                            <li><a class="dropdown-item" href="{% url 'products' %}?category=keyboards">Keyboards</a></li>
+                            <li><a class="dropdown-item" href="{% url 'products' %}?category=mouse">Mouse</a></li>
+                            <li><a class="dropdown-item" href="{% url 'products' %}?category=monitors">Monitors</a></li>
+                            <li><a class="dropdown-item" href="{% url 'products' %}?category=cables">Cables</a></li>
+                            <li><a class="dropdown-item" href="{% url 'products' %}?category=speakers,headphones,keyboards,mouse,monitors,cables">All Hardware</a></li>
                         </ul>
                     </li>
 
                     <li class="dropdown-submenu">
-                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5 submenu_handling" id="systems-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Special Offers</a>
-                        <ul class="dropdown-menu border-0 submenu_container" id="specials-link">
-                            <a href=" {% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
-                            <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
-                            <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
+                        <a tabindex="-1" href="#" class="logo-font font-weight-bold nav-link text-black mr-5 submenu_handling" id="specials-link1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Special Offers</a>
+                        <ul class="dropdown-menu border-0 submenu_container" aria-labelledby="specials-link1">
+                            <li><a class="dropdown-item" href="{% url 'products' %}?category=new_arrivals">New Arrivals</a></li>
+                            <li><a class="dropdown-item" href="{% url 'products' %}?category=deals">Deals</a></li>
+                            <li><a class="dropdown-item" href="{% url 'products' %}?category=new_arrivals,deals,clearance">All Specials</a></li>
                         </ul>
                     </li>
-                    <hr class="smallhr">
+                    <li>
+                        <hr class="smallhr">
+                    </li>
                     <li><a href="{% url 'products' %}" class="dropdown-submenu logo-font font-weight-bold nav-link text-black mr-5">All Products</a></li>
                 </ul>
             </div>
 
-            <!-- --------------------- DROPDOWN END ----------------------->
+            <!-- DROPDOWN END -->
 
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'products' %}">
@@ -123,13 +124,13 @@
             <div class="col-12 col-lg-3 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
-                        <a class="text-black" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="text-black" href="#" id="user-options-mob" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div><i class="fas fa-user fa-lg text-black dark-font"></i></div>
                                 <p class="text-black my-0 dark-font">My Account</p>
                             </div>
                         </a>
-                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                        <div class="dropdown-menu border-0" aria-labelledby="user-options-mob">
                             {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
                             <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
@@ -210,25 +211,31 @@
             <h3 class="logo-font font-weight-bold text-black">Categories</h3>
             <hr class="w-75 mb-1">
             <div class="row g-0">
-                <div class="col-lg-4">
-                    <h5 class="font-weight-bold text-black">PC's and Laptops</h5>
-                    <a tabindex="-1" href="{% url 'products' %}?category=pc" class="dropdown-item">PC's</a>
-                    <a href="{% url 'products' %}?category=laptop" class="dropdown-item">Laptop's</a>
-                </div>
-                <div class="col-lg-4">
-                    <h5 class="font-weight-bold text-black">Hardware</h5>
-                    <a href="{% url 'products' %}?category=speakers" class="dropdown-item">Speakers</a>
-                    <a href="{% url 'products' %}?category=headphones" class="dropdown-item">Headphones</a>
-                    <a href="{% url 'products' %}?category=keyboards" class="dropdown-item">Keyboards</a>
-                    <a href="{% url 'products' %}?category=mouse" class="dropdown-item">Mouse</a>
-                    <a href="{% url 'products' %}?category=monitors" class="dropdown-item">Monitors</a>
-                    <a href="{% url 'products' %}?category=cables" class="dropdown-item">Cables</a>
-                </div>
-                <div class="col-lg-4">
-                    <h5 class="font-weight-bold text-black">Special Offers</h5>
-                    <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
-                    <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
-                </div>
+                <ul class="col-lg-4 list-unstyled">
+                    <li>
+                        <h5 class="font-weight-bold text-black">PC's and Laptops</h5>
+                    </li>
+                    <li><a tabindex="-1" href="{% url 'products' %}?category=pc" class="dropdown-item">PC's</a></li>
+                    <li class="dropdown-item"><a href="{% url 'products' %}?category=laptop" class="dropdown-item">Laptop's</a>
+                </ul>
+                <ul class="col-lg-4 list-unstyled">
+                    <li>
+                        <h5 class="font-weight-bold text-black">Hardware</h5>
+                    </li>
+                    <li class="dropdown-item"><a href="{% url 'products' %}?category=speakers" class="dropdown-item">Speakers</a>
+                    <li class="dropdown-item"><a href="{% url 'products' %}?category=headphones" class="dropdown-item">Headphones</a>
+                    <li class="dropdown-item"><a href="{% url 'products' %}?category=keyboards" class="dropdown-item">Keyboards</a>
+                    <li class="dropdown-item"><a href="{% url 'products' %}?category=mouse" class="dropdown-item">Mouse</a>
+                    <li class="dropdown-item"><a href="{% url 'products' %}?category=monitors" class="dropdown-item">Monitors</a>
+                    <li class="dropdown-item"><a href="{% url 'products' %}?category=cables" class="dropdown-item">Cables</a>
+                </ul>
+                <ul class="col-lg-4 list-unstyled">
+                    <li>
+                        <h5 class="font-weight-bold text-black">Special Offers</h5>
+                    </li>
+                    <li class="dropdown-item"><a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                    <li class="dropdown-item"><a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                </ul>
             </div>
         </div>
         <div class="col-sm-12 col-lg-3 col-md-3 foot p-0">
@@ -269,7 +276,7 @@
                                 <div class="clear foot">
                                     <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
                                     <input type="button" value="Cancel" name="cancel" class="cancel button" onclick="closeForm()">
-                                    <p class="brandingLogo"><a href="http://eepurl.com/h5ujGP" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
+                                    <p class="brandingLogo"><a href="http://eepurl.com/h5ujGP" title="Mailchimp - email marketing made easy and fun"><img alt="Mailchimp logo" src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
                                 </div>
                             </div>
                         </div>
@@ -297,8 +304,7 @@
     </footer>
     {% endif %}
 
-    {% block postloadjs %}
-    <script type=" text/javascript">
+    <script>
         $('.toast').toast('show');
     </script>
     <script src="{% static 'js/base.js' %}"></script>
@@ -312,8 +318,8 @@
             document.getElementById("newsLetter").style.display = "none";
         }
     </script>
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-    <script type='text/javascript'>
+    <script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script>
         (function($) {
             window.fnames = new Array();
             window.ftypes = new Array();
@@ -332,6 +338,7 @@
         }(jQuery));
         var $mcj = jQuery.noConflict(true);
     </script>
+    {% block postloadjs %}
     {% endblock %}
 
 
