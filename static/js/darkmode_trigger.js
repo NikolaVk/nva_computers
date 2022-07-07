@@ -1,3 +1,4 @@
+/* jshint esversion: 11, jquery: true */
 let allCookies = document.cookie.split(";").map((cookie) => cookie.trim());
 let darkmode = 0;
 if (allCookies && (allCookies.length > 0)) {
