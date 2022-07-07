@@ -1,0 +1,9 @@
+Hello {{ full_name }}!
+
+We succesfully recieved your message and would like to thank you for reaching out.
+
+We will do our best to respond to you within 2 to 3 working days.
+
+Sincerely,
+
+NVA Computers
