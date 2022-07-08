@@ -4,7 +4,7 @@
 <div class="darkmode light darkmode_enabled darkmode-btt" onclick="setdarkmode(event);"><i class="fas fa-moon fa-lg"></i></div>
 
 <!-- DARKMODE END -->
-<ul class="list-inline mx-2">
+<ul class="list-inline">
     <li class="list-inline-item">
         <div class="col-12 my-auto pt-1 text-center text-lg-left">
             <a href="{% url 'home' %}" class=" main-logo-link">
@@ -27,8 +27,8 @@
         </div>
     </li>
     <li class="list-inline-item">
-        <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none text-black dark-font" href="{% url 'view_bag' %}">
-            <div class="text-center">
+        <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link small-nav-link d-block d-lg-none text-black dark-font" href="{% url 'view_bag' %}">
+            <div class="text-center small-bag">
                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                 <p class="my-0">
                     {% if grand_total %}

@@ -346,6 +346,11 @@ footer {
     color: #fff;
 }
 
+/*- Mobile navbar*/
+
+.navbar-collapse {
+    padding-left: 20px;
+}
 
 /*- Darkmode Button */
 
@@ -404,6 +409,7 @@ footer {
 
 .godark .navbar-collapse {
     background-color: #212121;
+    padding-left: 20px;
 }
 
 .godark .collapsing {
@@ -485,7 +491,7 @@ footer {
     left: 0;
     z-index: 100;
     background-color: #808080;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     text-align: center;
 }
@@ -699,5 +705,36 @@ footer {
 
     .navbar-toggler-icon {
         font-size: 60%;
+    }
+
+    .small-rev {
+        font-size: 25px;
+    }
+
+    .small-group {
+        width: 100% !important;
+    }
+
+    .small-bag {
+        font-size: 15px;
+    }
+
+    .small-nav-link {
+        padding: 0;
+        margin-right: 5px;
+    }
+
+    .small-tot {
+        font-size: 20px;
+    }
+
+    .small-button {
+        padding: 0;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .small-checkout {
+        font-size: 10px;
     }
 }

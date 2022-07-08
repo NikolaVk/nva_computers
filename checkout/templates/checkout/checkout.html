@@ -26,14 +26,14 @@
     </div>
 
     <div class="row">
-        <div class="col-12 col-lg-6 order-lg-last mb-5 dark-font">
+        <div class="col-12 col-lg-6 order-lg-last mb-5 dark-font small-checkout">
             <p class="text-muted dark-font">Order Summary ({{ product_count }})</p>
             <div class="row">
                 <div class="col-7 offset-2">
-                    <p class="mb-1 mt-0 small text-muted">Item</p>
+                    <p class="mb-1 mt-0 small text-muted dark-font">Item</p>
                 </div>
                 <div class="col-3 text-right">
-                    <p class="mb-1 mt-0 small text-muted">Subtotal</p>
+                    <p class="mb-1 mt-0 small text-muted dark-font">Subtotal</p>
                 </div>
             </div>
             {% for item in bag_items %}
@@ -49,10 +49,10 @@
                 </div>
                 <div class="col-7">
                     <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                    <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
+                    <p class="my-0 small text-muted dark-font">Qty: {{ item.quantity }}</p>
                 </div>
                 <div class="col-3 text-right">
-                    <p class="my-0 small text-muted">${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                    <p class="my-0 small text-muted dark-font">${{ item.product.price | calc_subtotal:item.quantity }}</p>
                 </div>
             </div>
             {% endfor %}
