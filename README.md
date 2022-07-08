@@ -105,7 +105,18 @@ NVA Computers or Nikola Vukomanovic Arnhem Computers is made, designed and deplo
 ![Color palet darkmode](/readme_media/colorsdm.png)
 
 ### Wireframes
-![Wireframe Desktop, Tablet and mobile](/readme_media/nva-wireframe.pdf)
+- Desktop wireframe
+
+    ![Wireframe Desktop](/readme_media/nva-wireframe-desktop.pdf)
+
+- Tablet wireframe
+
+    ![Wireframe Tablet](/readme_media/nva-wireframe-tablet.pdf)
+
+- Mobile wireframe
+
+    ![Wireframe Mobile](/readme_media/nva-wireframe-mobile.pdf)
+
 
 
 ## Features
