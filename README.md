@@ -473,6 +473,8 @@ The checkout app contains the Order and OrderLineItem models
 
 ## Testing
 
+- For testing view the seperate [TESTING.md](TESTING.md) file.
+
 ## Deployment
 
 ### Local
