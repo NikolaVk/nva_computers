@@ -604,8 +604,33 @@ USE_AWS | `<True>`
 5. Enable public access for your bucket so users can access and use the services on your website.
 
 ## Credits
+
 ### Content
+
+- All of the product information has been created by me
+- The reviews have been written by me to test the funcionality
+- Every peace of text on the site has been written by me
+- The Contact Us confirmation mails have been written by me
+- The order confirmation email has been written by coders from [Code Institute](https://codeinstitute.net)
+
 ### Images
+
+- The images from the deals category (Samsung TVM-24, Logitech MX Keys and MX Anywhere and MSI Thin GF65) are my own captured pictures/
+- The picture on the (MSI Thin GF65) is also a picture I own
+- The picture of the Medion x350 is also taken by me
+- All remaining pictures come from [Unsplash](https://unsplash.com/)
+
 ### Code
+
+- The code is based on the Boutique Ado project that has been made by the coders at [Code Institute](https://codeinstitute.net) except for the 3 new functions 
+Contact, Reviews and Wishlist. Also I tried changing the colors as much as I could. Also the new darkmode was my own creation.
+
 ### Acknowledgements
+
+- My new mentor Tim Nelson for the extreme ammounts of time in a short period of time.
+- The tutors from code institute: 
+    - Christine for arranging me a new mentor in the last week.
+    - Sean, Ger, Oisin, Christine for helping me with problems throughout this project.
+
 ### Disclaimer
+- This website is fictional and purely created as my final project at [Code Institute](https://codeinstitute.net)
