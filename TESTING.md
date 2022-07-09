@@ -5,12 +5,12 @@
 ### HTML
 
 - The HTML code was tested using [W3C Markup Validation Service](https://validator.w3.org/). I tested every single page using view page source for every page. 
-All pages pass the test widouth Errors or Warnings.
+All pages pass the test without Errors or Warnings.
 
 ### CSS
 
 - The CSS code was tested using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). Just as the html code it passed all tests. I used direct input
-to test the code. The code passed all tests widouth Errors.
+to test the code. The code passed all tests without Errors.
 
 ### JS
 
@@ -32,44 +32,44 @@ I tested the site using Lighthouse and these we're the results.
 
 #### Site Navigation
 
-1. Easy acces to most pages on top and bottom of the site
-    - There is easy acces inside the navbar with the categories button. Here the user can view all avaliable categories. The same when tryig to acces the profile and wishlist. The same can be said at the bottom as the footer contains the same links but widouth a dropdown. On mobile the categories dissapear from the footer, however the easy accesable navbar that follows the user as they scroll makes up for this.
+1. Easy access to most pages on top and bottom of the site
+    - There is easy access inside the navbar with the categories button. Here the user can view all available categories. The same when trying to access the profile and wishlist. The same can be said at the bottom as the footer contains the same links but without a dropdown. On mobile the categories disappear from the footer, however the easy accessible navbar that follows the user as they scroll makes up for this.
 
     - Conclusion: PASSED
 
-2. Have quick acces for all products on the page
-    - The same as above all products links can be easely accessed via the header and/or footer.
+2. Have quick access for all products on the page
+    - The same as above all products links can be easily  accessed via the header and/or footer.
 
     - Conclusion: PASSED
 
-3. Have quick acces to the shopping bag	
-    - The shopping bag as always accesable via the top right corner of the screen inside the navbar. The navbar follows the user on all screen types.
+3. Have quick access to the shopping bag	
+    - The shopping bag as always accessible via the top right corner of the screen inside the navbar. The navbar follows the user on all screen types.
 
     - Conclusion: PASSED
 
-4. Have quick acces to deals
-    - Upon arrival on the sites homepage 3 last added deals are displayed. Otherwise the navbar and footer contain the linkk for all deals.
+4. Have quick access to deals
+    - Upon arrival on the sites homepage 3 last added deals are displayed. Otherwise the navbar and footer contain the link for all deals.
 
     - Conclusion: PASSED
 
 #### Product Sorting and Searching
 
-1. Enter a search querie inside a search bar
+1. Enter a search query inside a search bar
     - The searchbar is on top of every screen type so its always there when you need it. The navbar searches for titles and texts inside the product detail pages of each product.
 
     - Conclusion: PASSED
 
-2. Categorise the products by price and name
+2. Categorize the products by price and name
     - On all products page there is a sorting function that sorts alphabetically, categories and probably most used rating and price. 
 
     - Conclusion: PASSED
 
 3. Add items to a wishlist
-    - Once the user has a registerd account they can add products to a builtin wishlist function. These remain for as long as the account is active.
+    - Once the user has a registered account they can add products to a builtin wishlist function. These remain for as long as the account is active.
 
     - Conclusion: PASSED
 
-4. Have easy acces to all categories
+4. Have easy access to all categories
     - The same is already mentioned above, but its very easy to sort out the categories with the navbar and footer links.
 
     - Conclusion: PASSED
@@ -77,22 +77,22 @@ I tested the site using Lighthouse and these we're the results.
 #### Accounts
 
 1. Make an account
-    - Users are able to easely create an account using their email adress. This unlocks extra features on the site. Making an ccount is easy as the register page is always located in the navbar and footer. After few steps the account can be created within minutes.
+    - Users are able to easily  create an account using their email address. This unlocks extra features on the site. Making an count is easy as the register page is always located in the navbar and footer. After few steps the account can be created within minutes.
 
     - Conclusion: PASSED
 
 2. Easy login and out	
-    - Just as the registration page the login and out buttons are at the same spot only replaced depending is user is registerd, logged in or out.
+    - Just as the registration page the login and out buttons are at the same spot only replaced depending is user is registered, logged in or out.
 
     - Conclusion: PASSED
 
 3. Reset password
-    - On the login page there is a reset password function thay will send you an email where the user can with wase reset their password.
+    - On the login page there is a reset password function they will send you an email where the user can with ease reset their password.
 
     - Conclusion: PASSED
 
 4. Save and update shipping info
-    - On the profile page there is a shipping form which can optionaly be filled in to save time when ordering. With an update button the user can with ease update that information at any given moment.
+    - On the profile page there is a shipping form which can optionally be filled in to save time when ordering. With an update button the user can with ease update that information at any given moment.
 
     - Conclusion: PASSED
 
@@ -104,7 +104,7 @@ I tested the site using Lighthouse and these we're the results.
 #### Shopping cart and Checkout
 
 1. View all items in the bag
-    - As mentioned above the shopping bag is easely accesable at all the time so a user can check when ever they want what and how much is in the bag.
+    - As mentioned above the shopping bag is easily accessible at all the time so a user can check when ever they want what and how much is in the bag.
 
     - Conclusion: PASSED
 
@@ -114,12 +114,12 @@ I tested the site using Lighthouse and these we're the results.
     - Conclusion: PASSED
 
 3. Securely checkout
-    - The checkoutis being handled with stripe and a webhook handler which makes sure everything is nicely secure. Noone not even the admin can acces any personal card information.
+    - The checkoutis being handled with stripe and a webhook handler which makes sure everything is nicely secure. None not even the admin can access any personal card information.
 
     - Conclusion: PASSED
 
-4. Recieve a confirmation mail	
-    - After every order a confirmation mail is beind sent to the user with all information about the order.
+4. Receive a confirmation mail	
+    - After every order a confirmation mail is being sent to the user with all information about the order.
 
     - Conclusion: PASSED
 
@@ -130,25 +130,25 @@ I tested the site using Lighthouse and these we're the results.
 
     - Conclusion: PASSED
 
-2. Recieve a confirmation mail
-    - After the contact form has been filled in the user trying to get in contact will recieve a confirmation email with information about how many workdays it can take to get an answer.
+2. Receive  a confirmation mail
+    - After the contact form has been filled in the user trying to get in contact will receive a confirmation email with information about how many workdays it can take to get an answer.
 
     - Conclusion: PASSED
 
 3. Contact via social media	
-    - Like mentioned above the Facebook page that is accesable from within the footer the user can go ahead and ask away.
+    - Like mentioned above the Facebook page that is accessible from within the footer the user can go ahead and ask away.
 
     - Conclusion: PASSED
 
 4. Subscribe to a newsletter
-    - Within the footer there is a form that is accesable once clicked on Subscribe to our Newsletter. The user can than leave behint their email adress. If clicked accedentaly it helps that there is an added cancel button within the form.
+    - Within the footer there is a form that is accessible once clicked on Subscribe to our Newsletter. The user can than leave behind their email address. If clicked accidentally it helps that there is an added cancel button within the form.
 
     - Conclusion: PASSED
 
 ### Admin
 
-1. Easely add, edit or remove products
-    - Once admin inside the my account dropdown there is a button called Product Management which when clicked can add a new product to the store. A product can also be eddited or removed by looking it up manualy and clicking the Edit or Remove button. All of this can also be achieved within the admin page.
+1. Easily  add, edit or remove products
+    - Once admin inside the my account dropdown there is a button called Product Management which when clicked can add a new product to the store. A product can also be edited or removed by looking it up manually and clicking the Edit or Remove button. All of this can also be achieved within the admin page.
 
     - Conclusion: PASSED
 
@@ -158,7 +158,7 @@ I tested the site using Lighthouse and these we're the results.
     - Conclusion: PASSED
 
 3. Manage users accounts	
-    - Again on the admin page the admin can manualy confirm emails, delete users or give them staff status.
+    - Again on the admin page the admin can manually confirm emails, delete users or give them staff status.
 
     - Conclusion: PASSED
 
@@ -170,23 +170,23 @@ I tested the site using Lighthouse and these we're the results.
 ## Manual Testing
 
 ### Desktop
-- The site has been tested on mizilla firefox on a 17.3 inch screen and on google chrome on a 24 inch screen. It looks like everything is in place.
+- The site has been tested on Mozilla Firefox on a 17.3 inch screen and on Google chrome on a 24 inch screen. It looks like everything is in place.
 
 
 - On the right side is the homepage on Firefox and the left Chrome
 
-    ![Chrome Firefix Test](/readme_media/firefox-chrome-test.png)
+    ![Chrome Firefox Test](/readme_media/firefox-chrome-test.png)
 
 ### Tablet
-- The site has also been tested on a 10.1 Android tabled on Chrome. Thid has been done in portraid and landschape mode.
+- The site has also been tested on a 10.1 Android tabled on Chrome. This has been done in portrait and landscape mode.
 
 - Portrait
 
     ![Portrait](/readme_media/tablet-chrome-portrait-test.png)
 
-- Landschape
+- Landscape 
 
-    ![Landschape](/readme_media/tablet-chrome-landschape-test.png)
+    ![Landscape ](/readme_media/tablet-chrome-landschape-test.png)
 
 ### Mobile
 - Mobile has been tested on a 6.1 inch android phone on Chrome and a 6.06 inch iOS device on Safari
@@ -208,9 +208,9 @@ I tested the site using Lighthouse and these we're the results.
 
 ### Unsolved
 
-- On mobile when the navbar is open and the device is on landschape mode you cant see all links until you rotate the phone to portrait.  
-- On tabled and mobile once in landschape mode the navbar is being pushed down a bit which then covers the Get the latest tech here! box. However the text is still
-perfectly visiable. 
+- On mobile when the navbar is open and the device is on landscape mode you cant see all links until you rotate the phone to portrait.  
+- On tabled and mobile once in landscape mode the navbar is being pushed down a bit which then covers the Get the latest tech here! box. However the text is still
+perfectly visible. 
 - If a user wishes to type on mobile the nav bar is in the way because of the appearing keyboard on mobile
 
 ## Further Testing
