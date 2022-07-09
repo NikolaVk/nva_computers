@@ -80,9 +80,9 @@ NVA Computers or Nikola Vukomanovic Arnhem Computers is made, designed and deplo
 ### Color Scheme
 
 #### Lightmode
-    For the lightmode I used mostly white for the background and a dark color for the letters. Except for the footer where I used the yellow-orange background and black letters. The white and dark combination
-    looks modern which fits the business. The added yellow on some parts was to add some contrast and because of the location on where the business is based. The colors almost that of the famous local 
-    football club. I only used a slightly darker tone of yellow than that of the club to make it more pleasent to read. 
+- For the lightmode I used mostly white for the background and a dark color for the letters. Except for the footer where I used the yellow-orange background and black letters. The white and dark combination
+looks modern which fits the business. The added yellow on some parts was to add some contrast and because of the location on where the business is based. The colors almost that of the famous local 
+football club. I only used a slightly darker tone of yellow than that of the club to make it more pleasent to read. 
 
 - Color Test
 
@@ -93,8 +93,8 @@ NVA Computers or Nikola Vukomanovic Arnhem Computers is made, designed and deplo
 ![Color palet lightmode](/readme_media/colors.png)
 
 #### Darkmode
-    As for the darkmode I used a dark gray as the background and white font for easy reading. The yellow elements mostly remained the same. Some buttons have been changed to match the yellow and a hover effect
-    of the same combination has been added other buttons.
+- As for the darkmode I used a dark gray as the background and white font for easy reading. The yellow elements mostly remained the same. Some buttons have been changed to match the yellow and a hover effect
+of the same combination has been added other buttons.
 
 - Color Test
 
