@@ -204,4 +204,16 @@ I tested the site using Lighthouse and these we're the results.
 
 ### Solved
 
+- Once testing I found that once in darkmode the No rating on the product cards had the wrong class. I had dark-font instead of ldark-font 
+
 ### Unsolved
+
+- On mobile when the navbar is open and the device is on landschape mode you cant see all links until you rotate the phone to portrait.  
+- On tabled and mobile once in landschape mode the navbar is being pushed down a bit which then covers the Get the latest tech here! box. However the text is still
+perfectly visiable. 
+- If a user wishes to type on mobile the nav bar is in the way because of the appearing keyboard on mobile
+
+## Further Testing
+
+- I asked my parents to create an account, check out the site, get in contact and purchase an item. The only frustration was typing on the phone due to the navbar being in the 
+way and the phones keyboard on the bottom so the view of typing is very tiny. Sadly I dont have time 
