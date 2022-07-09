@@ -474,10 +474,134 @@ The checkout app contains the Order and OrderLineItem models
 ## Testing
 
 ## Deployment
+
 ### Local
+
+1. Download an IDE and make sure to install Git, PIP and Python3.
+
+2. Make your accounts: Stripe and AWS and set those up (Setup of those can be found below).
+
+3. Sign in to github and go to the repository you want to clone.
+
+4. Above the files click on the button that says Code.
+
+5. Copy the provided link under HTTPS.
+
+6. Now open up your code editor.
+
+7. Open a new or existing work directory.
+
+8. Inside the terminal type in git clone and add the copied HTTPS link
+
+9. Also in the terminal install the required modules with:
+
+        pip -r requirements.txt.   
+
+10. Migrate the models by using the following commands:
+
+        python3 manage.py makemigrations --dry-run
+
+        python3 manage.py makemigrations
+
+        python3 manage.py migrate --plan
+
+        python3 manage.py migrate
+
+11. Load your fixtures with:
+
+        python3 manage.py loaddata <fixture_name>
+
+12. Create a superuser and follow the instructions in the terminal 
+
+        python3 manage.py createsuperuser
+
+13. Run your program locally with this command.
+
+        python3 manage.py runserver
+
+14. Once the program is running, go to the local link provided and add /admin to the end of the url. Here log in with your superuser account and create your instances. You should now be up and running.
+
 ### Heroku
+
+1. Create a `requirements.txt` in your terminal with the command: 
+
+        pip freeze > requirements.txt
+
+2. Create a `procfile` with the following command inside the terminal:
+
+        python app.py > Procfile
+
+3. Add commit and push with the following commands
+        
+        git add -a     
+        git commit -m " Your commit message "        
+        git push
+        
+4. Create a new account or login to Heroku.
+
+5. Create a new app by clicking the top right corner button `New`.
+
+6. The region should be the one closest to you.
+
+7. Once you created the app go to the settings tab and click Reveal Config Vars
+
+| Key | Value |
+--- | ---
+AWS_ACCESS_KEY_ID | `<aws acces key>`
+AWS_SECRET_ACCESS_KEY | `<aws secret key>`
+DATABASE_URL | `<your postgres database url>`
+EMAIL_HOST_PASS | `<your secret key>`
+EMAIL_HOST_USER | `<email of choise after setup>`
+SECRET_KEY | `<your secret key>`
+STRIPE_PUBLIC_KEY | `<stripe public key>`
+STRIPE_SCRET_KEY | `<stripe secret key>`
+STRIPE_WH_KEY | `<Stripe wh secret key>`
+USE_AWS | `<True>`
+
+8. From the command line of your local IDE:
+    - Enter the Heroku Postgres shell
+    - Migrate the database models
+    - Create a new superuser account for this database
+
+9. In your Heroku dashboard, click on Deploy. Look for Manual Deploy and click it, after that select the master branch then click Deploy Branch.
+
+10. Scroll down to the deploy button and click Enable Automatic Deployment.
+
+11. Click view app and enjoy your project.
+
 ### Stripe
+
+1. Go to [Stripe](https://stripe.com/) and create an account.
+
+2. Click on the developers button on the top right corner.
+
+3. Navigate to API keys on the left side of the screen.
+
+4. Copy the public and secret key and add those in your Gitpod Workspaces and in Heroku config vars.
+
+5. Inside the workspaces click on your profile on top right and then click on settings. 
+
+6. Navigate to variables to your left and add those keys there with the correct names.
+
+7. Navigate to webhooks on Stripe and create a new webhook.
+
+8. Add the correct link inside the webhook creation page. For example mine is (https://nva-computers.herokuapp.com/checkout/wh/) and tik listen to events.
+
+9. Add events to listen for.
+
+10. The webhook should be functional.
+
 ### AWS
+
+1. Create an account at [AWS](https://aws.amazon.com/).
+
+2. Navigate to the IAM application and create a user and group.
+
+3. Set the AmazonS3 for the user and copy the AWS ACCESS and SECRET keys as config vars to your Gitpod Workspace and on Heroku. 
+
+4. Create a new Bucket within the S3 application.
+
+5. Enable public access for your bucket so users can access and use the services on your website.
 
 ## Credits
 ### Content
