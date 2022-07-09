@@ -286,23 +286,190 @@ NVA Computers or Nikola Vukomanovic Arnhem Computers is made, designed and deplo
 
 
 ## Information Architecture
+
 ### Business Model
+
+I chose to use a B2C (Business to Customer) method. This store offers products of branded products. If this was a real world store there would be a list of every brand being sold.
+
+### Business Flow
+
+- The products are being bought from the manifacturers directly.
+- The site also handles all orders from the store directly to the customer.
+
+Arriving on the site as a first time user it should be obvious what the intention is of this site.
+
+### Marketing
+
+- There is a facebook page link inside the footer which leads the users to the Facebook business page. You can view that page [here](https://www.facebook.com/NVA-Computers-109270341834620/).
+- In the footer there is also a [Mailchimp](https://mailchimp.com/) form where users can register to recieve news and offers.
+
+If the facebook page has been taken down for not being a real business you can view the images beneath.
+
+- The entirety of the page.
+
+    ![Facebook homepage](/readme_media/facebookpage.png)
+
+- Facebook business information
+
+    ![Facebook information](/readme_media/facebookinfo.png)
+
+- Welcome post on Facebook 
+
+    ![Facebook welcome post](/readme_media/welcomepost.png)
+
 ### Database Choice
+
+- For the frameworks SQL is being used by Django
+- Deployment uses PostgresSQL provided by Heroku
+- Local database uses sqlite3 with Django 
+
 ### Data Models
+
 #### User
-#### Products App Model
+
+- For the user "django.contrib.auth.models" is being used
+
+#### Products Model
+
+The product app contains the Category and Product models 
+
+- Categories
+
+| DB key | Field type |
+| ----------- | ----------- |
+| name | CharField |
+| friendly_name | CharField |
+
+- Product
+
+| DB key | Field type |
+| ----------- | ----------- |
+| category | ForeignKey |
+| sku | CharField |
+| name | CharField |
+| description | TextField |
+| specs | TextField |
+| price | DecimalField |
+| rating | DecimalField |
+| image_url | URLField |
+| image | URLField |
+
 #### Checkout Models
+
+The checkout app contains the Order and OrderLineItem models
+
+- Order
+
+| DB key | Field type |
+| ----------- | ----------- |
+| order_number | CharField |
+| user_profile | ForeignKey |
+| full_name | CharField |
+| email | EmailField |
+| phone_number | CharField |
+| country | CountryField |
+| postcode | CharField |
+| town_or_city | CharField |
+| street_address1 | CharField |
+| street_address2 | CharField |
+| county | CharField |
+| date | DateTimeField |
+| delivery_cost | DecimalField |
+| order_total | DecimalField |
+| grand_total | DecimalField |
+| original_bag | TextField |
+| stripe_pid | CharField |
+
+- OrderLineItem
+
+| DB key | Field type |
+| ----------- | ----------- |
+| order | ForeignKey |
+| product | ForeignKey |
+| quantity | IntegerField |
+| lineitem_total | DecimalField |
+
 #### User Profile Model
+
+| DB key | Field type |
+| ----------- | ----------- |
+| user | OneToOneField |
+| default_phone_number | CharField |
+| default_street_address1 | CharField |
+| default_street_address2 | CharField |
+| default_town_or_city | CharField |
+| default_county | CharField |
+| default_postcode | CharField |
+| default_country | CountryField |
+
 #### Reviews Model
+
+| DB key | Field type |
+| ----------- | ----------- |
+| user | ForeignKey |
+| product | ForeignKey |
+| title | CharField |
+| comment | TextField |
+| rating | IntegerField |
+| created_on | DateTimeField |
+
 #### Wishlist Model
 
-## Technologies Used
-### Tools
+| DB key | Field type |
+| ----------- | ----------- |
+| user | ForeignKey |
+| list | ManyToManyField |
+| created_on | DateTimeField |
 
-    Github projects and issues for agile
+#### Contact Model
+
+| DB key | Field type |
+| ----------- | ----------- |
+| name | CharField |
+| mail | CharField |
+| product | ForeignKey |
+| title | CharField |
+| description | TextField |
+| created_on | DateTimeField |
+| status | BooleanField |
+
+## Technologies Used
+
+### Tools
+- Github is used to store the code
+- Gitpod was used as the IDE
+- PIP Install was used for instaling the necesary tools
+- Django Cryspi Forms for the Django forms styling
+- Pillow for adding images to the database
+- Psycopg2 was used for adaptor of Postgres
+- Gunicorn was used for the development
+- Stripe is being used for the payment
+- Boto3 is used for managing of AWS S3
+- AWS S3 to store static files and media files
+- Github projects and issues for agile
 ### Databases
+
+- Heroku Postgres
+- SQLite3
+
 ### Libraries
+
+- Bootstrap
+- Jquery
+- Fontawesome
+- Google Fonts
+
 ### Languages
+
+- HTML5
+- CSS3
+- JavaScript
+- Python
+
+### Others
+
+- AdobeXD was used for the creation of the wireframes
+- [Fonticon](https://gauger.io/fonticon/) was used for the creation of the favicon.ico
 
 ## Testing
 
