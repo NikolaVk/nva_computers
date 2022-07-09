@@ -42,13 +42,13 @@ NVA Computers or Nikola Vukomanovic Arnhem Computers is made, designed and deplo
 | Site visitor | Enter a search querie inside a search bar| Find what I'm looking for much easier |
 | Site visitor | Categorise the products by price and name | See the cheapest or best reviewed item |
 | Site visitor | Add items to a wishlist | Take a closer look later much easier |
-| Site visitor | Have easi acces to all categories | Sort items out as soon as I get on the site |
+| Site visitor | Have easy acces to all categories | Sort items out as soon as I get on the site |
 
 #### Accounts 
 | AS A    | I WANT TO BE ABLE TO ... | SO THAT I CAN... |
 | ----------- | ----------- | ----------- |
 | Site visitor | Make an account | Use all avaliable functions on the site |
-| Site visitor | Easi login and out | Login and out quick and easy |
+| Site visitor | Easy login and out | Login and out quick and easy |
 | Site visitor | Reset password | Get acces to my account back |
 | Site visitor | Save and update shipping info | Buy much quicker |
 | Site visitor | See all items I bought | See the purchase date and price of each order |

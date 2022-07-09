@@ -168,6 +168,40 @@ I tested the site using Lighthouse and these we're the results.
     - Conclusion: PASSED
 
 ## Manual Testing
-## Bugs
-### Discovered 
+
+### Desktop
+- The site has been tested on mizilla firefox on a 17.3 inch screen and on google chrome on a 24 inch screen. It looks like everything is in place.
+
+
+- On the right side is the homepage on Firefox and the left Chrome
+
+    ![Chrome Firefix Test](/readme_media/firefox-chrome-test.png)
+
+### Tablet
+- The site has also been tested on a 10.1 Android tabled on Chrome. Thid has been done in portraid and landschape mode.
+
+- Portrait
+
+    ![Portrait](/readme_media/tablet-chrome-portrait-test.png)
+
+- Landschape
+
+    ![Landschape](/readme_media/tablet-chrome-landschape-test.png)
+
+### Mobile
+- Mobile has been tested on a 6.1 inch android phone on Chrome and a 6.06 inch iOS device on Safari
+
+- Android Chrome 
+
+    ![Android](/readme_media/mobile-chrome-test.png)
+
+- iOS Safari
+
+    ![iOS](/readme_media/mobile-safari-test.png)
+
+
+## Bugs Discovered
+
 ### Solved
+
+### Unsolved
