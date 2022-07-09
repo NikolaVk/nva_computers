@@ -128,13 +128,16 @@ NVA Computers or Nikola Vukomanovic Arnhem Computers is made, designed and deplo
 - Underneath the shop now button there are 3 latest deals displayed to make it easier for the users to see them
 
 ![Homepage features](/readme_media/homepage.png)
+
 #### Darkmode
 - Within the header is a darkmode toggle button. The entirety of the page turns darker and makes all the text brighter so that it's stil readable. The darkmode also remembers it's last position for as long as the site is being used at least.
 
 - Underneath is the darkmode disabled
+
 ![Darkmode feature disabled](/readme_media/darkmode-disabled.png)
 
 - Underneath is the darkmode enabled
+
 ![Darkmode feature enabled](/readme_media/darkmode-enabled.png)
 
 #### Header
@@ -213,6 +216,7 @@ NVA Computers or Nikola Vukomanovic Arnhem Computers is made, designed and deplo
 - The product card is also the same except now it has a Remove from Wishlist button.
 
 ![Wishlist](/readme_media/wishlist.png)
+
 #### Contact Page
 
 - Like mentioned in the footer section of the features once the Ask us Anything button is clicked you will be taken here where you are presented with a form.
@@ -237,11 +241,13 @@ NVA Computers or Nikola Vukomanovic Arnhem Computers is made, designed and deplo
 - If a user has an account he or she can login to their account. 
 - If the user forgets the password there is a password reset link underneath.
 
-- Login 
-    ![Login Page](/readme_media/signin-png.PNG)
+- Login
+
+![Login Page](/readme_media/signin-png.PNG)
 
 - Logout
-    ![Logout Page](/readme_media/signout.png)
+
+![Logout Page](/readme_media/signout.png)
 
 #### Account Page
 
